@@ -1,0 +1,36 @@
+{
+  "name": "iot-vehicle-accident-detection",
+  "version": "1.0.0",
+  "description": "IoT-Based Vehicle Accident Detection and Alert System with Deep Neural Networks (Simulation-Only)",
+  "private": true,
+  "scripts": {
+    "infra:up": "docker compose up -d mosquitto mongodb",
+    "infra:down": "docker compose down",
+    "broker": "cd server && npm run broker",
+    "docker:build": "docker compose build",
+    "docker:up": "docker compose up --build",
+    "docker:down": "docker compose down -v",
+    "server:install": "cd server && npm install",
+    "simulator:install": "cd simulator && npm install",
+    "client:install": "cd client && npm install",
+    "install:all": "npm run server:install && npm run simulator:install && npm run client:install",
+    "server:dev": "cd server && npm run dev",
+    "simulator:dev": "cd simulator && npm run start",
+    "simulator:dry-run": "cd simulator && npm run dry-run",
+    "simulator:test": "cd simulator && npm run test",
+    "client:dev": "cd client && npm run dev",
+    "ml:dev": "cd ml-service && uvicorn app.main:app --reload --port 8000",
+    "seed": "cd server && npm run seed"
+  },
+  "keywords": [
+    "iot",
+    "accident-detection",
+    "deep-learning",
+    "mqtt",
+    "react",
+    "express",
+    "fastapi"
+  ],
+  "author": "",
+  "license": "MIT"
+}

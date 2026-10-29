@@ -1,0 +1,113 @@
+
+> iot-accident-backend@1.0.0 test
+> node --test tests/**/*.test.js
+
+Γû╢ Server REST API Endpoints
+  Γ£ö GET /api/health returns 200 with service health info (38.3627ms)
+  Γ£ö GET /api/settings returns default system pipeline settings (18.9257ms)
+[36m[2026-10-28T05:49:21.833Z] [INFO][0m [ModelMetric] Stored metric for model 'deep-neural-network-v1': accuracy=0.985, recall=0.992
+  Γ£ö POST & GET /api/models/metrics ingests and returns ML benchmark metrics (100.5781ms)
+  Γ£ö returns 404 with structured error JSON for nonexistent routes (6.7202ms)
+Γ£ö Server REST API Endpoints (924.9005ms)
+Γû╢ Auth, CRUD, Validation, Debounce & Recovery Integration Tests
+  Γ£ö registers a new user and logs in to receive JWT token (815.1729ms)
+  Γ£ö rejects access to protected routes without a token with 401 Unauthorized (53.7468ms)
+  Γ£ö returns 400 Bad Request with field details on invalid request body (55.2552ms)
+  Γ£ö performs full Device CRUD (Create, Read, Update, Delete) (480.3599ms)
+  Γ£ö performs full Emergency Contact CRUD (Create, Read, Update, Delete) (507.0753ms)
+[35m[2026-10-28T05:49:23.723Z] [INCIDENT] [ESP32-DEBOUNCE-1793166563625] PENDING_CONFIRMATION[0m Incident created: 6ae18ce30c25140f841220d8 (Peak: 6.5g, 15s countdown)
+  Γ£ö debounces duplicate accident candidates within the debounce window (103.9122ms)
+[36m[2026-10-28T05:49:23.828Z] [INFO][0m [Incident] Resuming countdown for pending incident 6ae18ce30c25140f841220d8 (15s left)
+[36m[2026-10-28T05:49:23.829Z] [INFO][0m [Incident] Expired pending incident 6ae18ce30c25140f841220db on server startup. Confirming...
+[35m[2026-10-28T05:49:23.927Z] [INCIDENT] [ESP32-RECOVERY-1793166563729] CONFIRMED[0m Incident 6ae18ce30c25140f841220db officially confirmed.
+[35m[2026-10-28T05:49:24.133Z] [INCIDENT] [ESP32-RECOVERY-1793166563729] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: ESP32-RECOVERY-1793166563729 (ESP32-RECOVERY-1793166563729)
+Time: 28/10/2026, 11:18:53 am
+Impact Peak: 7.2 g
+Speed at Impact: 0 km/h
+Confidence: 95%
+Location: 10.99800, 76.96600
+Map Link: https://maps.google.com/?q=10.99800,76.96600
+======================================================
+
+[36m[2026-10-28T05:49:25.116Z] [INFO][0m [Alert Service] Created Ethereal test email account: zq4r5eski5vupeay@ethereal.email
+  Γ£ö resumes and recovers pending incidents after server restart (1408.0439ms)
+[36m[2026-10-28T05:49:25.176Z] [INFO][0m [Settings] Updated system settings in MongoDB and memory cache
+  Γ£ö persists updated pipeline settings across queries (68.8375ms)
+Γ£ö Auth, CRUD, Validation, Debounce & Recovery Integration Tests (4450.3359ms)
+Γû╢ Ground Truth Meta Field Isolation
+  Γ£ö omits meta field from stored telemetry point when storeGroundTruth is false (4.0482ms)
+  Γ£ö proves detection pipeline and feature extraction are completely blind to meta field (3.8116ms)
+Γ£ö Ground Truth Meta Field Isolation (11.2822ms)
+[35m[2026-10-28T05:49:21.540Z] [INCIDENT] [TEST-VEHICLE-101] PENDING_CONFIRMATION[0m Incident created: 6ae18ce12c8d23c3eeed0df8 (Peak: 6.8g, 15s countdown)
+Γû╢ Incident Lifecycle & State Machine Integration
+  Γ£ö creates incident in PENDING_CONFIRMATION status with countdown deadline (76.9073ms)
+[35m[2026-10-28T05:49:21.558Z] [INCIDENT] [TEST-VEHICLE-102] PENDING_CONFIRMATION[0m Incident created: 6ae18ce12c8d23c3eeed0e01 (Peak: 5.1g, 15s countdown)
+[35m[2026-10-28T05:49:21.579Z] [INCIDENT] [TEST-VEHICLE-102] FALSE_ALARM[0m Incident 6ae18ce12c8d23c3eeed0e01 cancelled: Driver pressed false alarm cancel
+  Γ£ö allows false-alarm cancellation during countdown window (39.621ms)
+[35m[2026-10-28T05:49:21.588Z] [INCIDENT] [TEST-VEHICLE-103] PENDING_CONFIRMATION[0m Incident created: 6ae18ce12c8d23c3eeed0e0d (Peak: 7.5g, 15s countdown)
+[35m[2026-10-28T05:49:21.598Z] [INCIDENT] [TEST-VEHICLE-103] CONFIRMED[0m Incident 6ae18ce12c8d23c3eeed0e0d officially confirmed.
+[35m[2026-10-28T05:49:21.642Z] [INCIDENT] [TEST-VEHICLE-103] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: TEST-VEHICLE-103 (TEST-VEHICLE-103)
+Time: 28/10/2026, 11:19:21 am
+Impact Peak: 7.5 g
+Speed at Impact: 65 km/h
+Confidence: 98%
+Location: 10.99800, 76.96600
+Map Link: https://maps.google.com/?q=10.99800,76.96600
+======================================================
+
+[36m[2026-10-28T05:49:23.084Z] [INFO][0m [Alert Service] Created Ethereal test email account: qwqfw66pjl636dtt@ethereal.email
+  Γ£ö confirms incident when countdown expires or is manually confirmed (1706.7895ms)
+[35m[2026-10-28T05:49:23.389Z] [INCIDENT] [TEST-VEHICLE-104] PENDING_CONFIRMATION[0m Incident created: 6ae18ce32c8d23c3eeed0e25 (Peak: 6g, 15s countdown)
+  Γ£ö enforces valid status transition rules (rejects invalid transitions) (169.0337ms)
+Γ£ö Incident Lifecycle & State Machine Integration (3097.2122ms)
+Γû╢ Feature Extraction Utility (Parity & Kinematics)
+  Γ£ö correctly calculates 3D Euclidean magnitude (1.2133ms)
+  Γ£ö handles empty or null telemetry window gracefully with zero defaults (0.5269ms)
+  Γ£ö extracts statistical and kinematic crash features accurately (2.0268ms)
+Γ£ö Feature Extraction Utility (Parity & Kinematics) (5.6239ms)
+Γû╢ ML Client Service (Timeout, Retry, and Fallback)
+  Γ£ö successfully returns prediction when ML microservice is online and responds (50.1903ms)
+[33m[2026-10-28T05:49:20.289Z] [WARN][0m [ML Client] ML service unreachable at http://127.0.0.1:59999/predict (connect ECONNREFUSED 127.0.0.1:59999). Activating Rule-Based Fallback Engine.
+  Γ£ö automatically falls back to Rule Engine when ML service times out or is unreachable (10.7254ms)
+Γ£ö ML Client Service (Timeout, Retry, and Fallback) (62.9991ms)
+[35m[2026-10-28T05:49:21.551Z] [INCIDENT] [MOCK-VEHICLE-ML-1793166561467] PENDING_CONFIRMATION[0m Incident created: 6ae18ce1c2cb829af5a385ee (Peak: 7.2g, 15s countdown)
+Γû╢ Detection Pipeline with Mocked ML Client & Fallback
+  Γ£ö (a) creates exactly ONE incident with detectionSource: ML when ML flags ACCIDENT (87.7892ms)
+[35m[2026-10-28T05:49:21.566Z] [INCIDENT] [MOCK-VEHICLE-TIMEOUT-1793166561556] PENDING_CONFIRMATION[0m Incident created: 6ae18ce1c2cb829af5a385f6 (Peak: 6.5g, 15s countdown)
+  Γ£ö (b) activates rule fallback on timeout and records detectionSource: RULE_BASED (11.0734ms)
+  Γ£ö (c) creates ZERO incidents for a pothole window (0.5789ms)
+Γ£ö Detection Pipeline with Mocked ML Client & Fallback (958.7436ms)
+Γû╢ Rule-Based Fallback Engine (Kinematic Physics Classification)
+  Γ£ö correctly classifies severe frontal impact crash with speed drop as ACCIDENT (2.0255ms)
+  Γ£ö correctly classifies rollover / side-impact crash with high angular rate as ACCIDENT (0.4654ms)
+  Γ£ö provides false alarm immunity for potholes and speed bumps (high G spike, NO speed drop or rotation) (3.2724ms)
+  Γ£ö correctly classifies normal cruising or mild braking as NON_ACCIDENT (0.3417ms)
+Γ£ö Rule-Based Fallback Engine (Kinematic Physics Classification) (8.7999ms)
+Γû╢ Sliding Window Cadence & Pre-Filter Screening
+  Γ£ö correctly constructs 2.0s (100-sample) sliding windows with 50% overlap (50-sample stride) (2.7331ms)
+  Γ£ö pre-filter PASS cases: allows high-G collision shock, rollover spin, or sudden deceleration (0.3886ms)
+  Γ£ö pre-filter BLOCK cases: blocks quiescent cruising and mild maneuvers (0.2973ms)
+  Γ£ö buffer eviction: enforces max capacity and prevents memory leakage (0.4644ms)
+Γ£ö Sliding Window Cadence & Pre-Filter Screening (6.0324ms)
+Γû╢ Sliding Window & Pre-Filter Screening Engine
+  Γ£ö correctly ingests telemetry points without errors (1.7829ms)
+  Γ£ö clears device window on clearDeviceWindow (1.1508ms)
+Γ£ö Sliding Window & Pre-Filter Screening Engine (4.4221ms)
+Γä╣ tests 36
+Γä╣ suites 10
+Γä╣ pass 36
+Γä╣ fail 0
+Γä╣ cancelled 0
+Γä╣ skipped 0
+Γä╣ todo 0
+Γä╣ duration_ms 6681.6478

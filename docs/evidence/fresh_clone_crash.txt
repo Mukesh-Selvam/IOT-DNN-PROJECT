@@ -1,0 +1,25 @@
+[36m[2026-10-28T06:38:44.390Z] [INFO][0m [Device Status] [ESP32-SIM-003] Device reported ONLINE
+[36m[2026-10-28T06:38:44.394Z] [INFO][0m [MQTT Subscriber] Subscribed to topic pattern: vehicle/+/status
+[36m[2026-10-28T06:38:44.394Z] [INFO][0m [MQTT Subscriber] Subscribed to topic pattern: vehicle/+/event
+[35m[2026-10-28T06:40:00.179Z] [INCIDENT] [ESP32-SIM-001] FIRMWARE_IMPACT_DETECTED[0m {"type":"IMPACT_DETECTED","deviceId":"ESP32-SIM-001","ts":1793169600176,"peakG":8.31,"gps":{"lat":10.916578,"lng":77.008146,"speed":49.5,"heading":155.3,"satellites":8,"hdop":1.12,"fix":1,"ts":1793169599296}}
+[35m[2026-10-28T06:40:00.832Z] [INCIDENT] [ESP32-SIM-001] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 13.12g
+[35m[2026-10-28T06:40:00.910Z] [INCIDENT] [ESP32-SIM-001] PENDING_CONFIRMATION[0m Incident created: 6ae198c0b1d205032a5bd188 (Peak: 13.12g, 15s countdown)
+[35m[2026-10-28T06:40:00.945Z] [INCIDENT] [ESP32-SIM-001] FIRMWARE_BUZZER_ON[0m {"type":"BUZZER_ON","deviceId":"ESP32-SIM-001","ts":1793169600921,"gps":{"lat":10.916531,"lng":77.0082,"speed":0,"heading":155.3,"satellites":8,"hdop":1.12,"fix":1,"ts":1793169600314}}
+[35m[2026-10-28T06:40:01.816Z] [INCIDENT] [ESP32-SIM-001] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 13.12g
+[35m[2026-10-28T06:40:15.185Z] [INCIDENT] [ESP32-SIM-001] FIRMWARE_ALERT_CONFIRMED[0m {"type":"ALERT_CONFIRMED","deviceId":"ESP32-SIM-001","ts":1793169615184,"peakG":8.31,"gps":{"lat":10.916519,"lng":77.008178,"speed":0,"heading":155.3,"satellites":10,"hdop":1.02,"fix":1,"ts":1793169614443}}
+[35m[2026-10-28T06:40:15.956Z] [INCIDENT] [ESP32-SIM-001] CONFIRMED[0m Incident 6ae198c0b1d205032a5bd188 officially confirmed.
+[35m[2026-10-28T06:40:16.039Z] [INCIDENT] [ESP32-SIM-001] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: TN-38-AB-1234 (ESP32-SIM-001)
+Time: 10/28/2026, 6:40:00 AM
+Impact Peak: 13.12 g
+Speed at Impact: 49.6 km/h
+Confidence: 96%
+Location: 10.91653, 77.00820
+Map Link: https://maps.google.com/?q=10.91653,77.00820
+======================================================
+
+[36m[2026-10-28T06:40:18.116Z] [INFO][0m [Alert Service] Created Ethereal test email account: akpnc3kquwg2upgv@ethereal.email

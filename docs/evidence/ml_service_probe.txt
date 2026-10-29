@@ -1,0 +1,12 @@
+ML-SERVICE PROBE — LIVE DOCKER CONTAINER
+Date: 2026-10-28 11.11.53
+Container: iot_ml_service (rebuilt 2026-10-28, main.py fixed Path+json imports)
+
+=== GET http://localhost:8000/health (inside container) ===
+{"status":"healthy","service":"ml-service","timestamp":"2026-10-28T05:41:53.982953Z","model_ready":true,"training_in_progress":false,"models_loaded":{"dnn":true,"autoencoder":true,"moment":false},"moment_status":{"status":"skipped","message":"MOMENT foundation time-series model skipped (zero-shot baseline requires GPU/PyTorch)"}}
+
+=== POST http://localhost:8000/predict (inside container) ===
+{"deviceId":"PROBE-001","label":"ACCIDENT","confidence":0.96,"raw_probability":0.96,"peakG":12.5,"autoencoder_mse":31.7313,"model":"dnn","latency_ms":0.89,"timestamp":"2026-10-28T05:41:54.358953Z"}
+
+=== docker ps output ===
+NAMES            STATUS                    PORTS iot_ml_service   Up 6 minutes (healthy)    0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp iot_dashboard    Up 50 minutes             0.0.0.0:5173->5173/tcp, [::]:5173->5173/tcp iot_backend      Up 50 minutes             0.0.0.0:5000->5000/tcp, [::]:5000->5000/tcp iot_simulator    Up 51 minutes             0.0.0.0:5055->5055/tcp, [::]:5055->5055/tcp iot_mongodb      Up 51 minutes (healthy)   0.0.0.0:27018->27017/tcp, [::]:27018->27017/tcp iot_mosquitto    Up 51 minutes (healthy)   0.0.0.0:1883->1883/tcp, [::]:1883->1883/tcp, 0.0.0.0:9001->9001/tcp, [::]:9001->9001/tcp

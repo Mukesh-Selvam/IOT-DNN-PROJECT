@@ -1,0 +1,58 @@
+{
+  "dnn": {
+    "accuracy": 0.9935,
+    "precision": 0.9495,
+    "recall": 0.9869,
+    "f1": 0.9678,
+    "auc_roc": 0.9906,
+    "confusion_matrix": [
+      [
+        2777,
+        16
+      ],
+      [
+        4,
+        301
+      ]
+    ]
+  },
+  "autoencoder": {
+    "accuracy": 0.9697,
+    "precision": 0.8392,
+    "recall": 0.8557,
+    "f1": 0.8474,
+    "auc_roc": 0.9189,
+    "confusion_matrix": [
+      [
+        2743,
+        50
+      ],
+      [
+        44,
+        261
+      ]
+    ]
+  },
+  "noise_stress_3x": {
+    "accuracy": 0.2815,
+    "precision": 0.1205,
+    "recall": 1.0,
+    "f1": 0.2151,
+    "auc_roc": 0.6015,
+    "confusion_matrix": [
+      [
+        567,
+        2226
+      ],
+      [
+        0,
+        305
+      ]
+    ]
+  },
+  "moment": {
+    "status": "skipped",
+    "message": "MOMENT foundation time-series model skipped (optional zero-shot baseline, GPU required)",
+    "model_name": "AutonLab/MOMENT-1-large"
+  }
+}

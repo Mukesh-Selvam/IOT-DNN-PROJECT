@@ -1,0 +1,7 @@
+{
+  "status": "NOT_EVALUATED",
+  "model": "MOMENT-1-small",
+  "reason": "PyTorch import failed: [WinError 4551] An Application Control policy has blocked this file. Error loading \"C:\\Users\\MUKESH S\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\torch\\lib\\torch.dll\" or one of its dependencies.",
+  "traceback": "PyTorch import failed: [WinError 4551] An Application Control policy has blocked this file. Error loading \"C:\\Users\\MUKESH S\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\torch\\lib\\torch.dll\" or one of its dependencies.\nTraceback (most recent call last):\n  File \"C:\\Users\\MUKESH S\\Documents\\PROJECTS\\iot-dnn\\ml-service\\app\\evaluate_moment.py\", line 25, in evaluate_moment\n    import torch\n  File \"C:\\Users\\MUKESH S\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\torch\\__init__.py\", line 309, in <module>\n    _load_dll_libraries()\n  File \"C:\\Users\\MUKESH S\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\torch\\__init__.py\", line 292, in _load_dll_libraries\n    raise err\nOSError: [WinError 4551] An Application Control policy has blocked this file. Error loading \"C:\\Users\\MUKESH S\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\torch\\lib\\torch.dll\" or one of its dependencies.\n",
+  "evaluated_at": "2026-10-28T04:41:49Z"
+}

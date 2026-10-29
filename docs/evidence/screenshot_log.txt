@@ -1,0 +1,16 @@
+[Screenshots] Using browser: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Screenshots] FAILED 01_login: Navigation timeout of 15000 ms exceeded
+[Screenshots] Login step error (continuing): Navigation timeout of 15000 ms exceeded
+[Screenshots] FAILED 02_dashboard_normal: Navigation timeout of 15000 ms exceeded
+[Screenshots] FAILED 03_fleet_monitor: Navigation timeout of 15000 ms exceeded
+[Screenshots] FAILED 04_live_map: Navigation timeout of 15000 ms exceeded
+[Screenshots] Crash trigger: read ECONNRESET
+[Screenshots] FAILED 05_dashboard_crash_banner: Navigation timeout of 15000 ms exceeded
+[Screenshots] FAILED 06_incidents_list: Navigation timeout of 15000 ms exceeded
+[Screenshots] FAILED 07_incident_detail: Navigation timeout of 15000 ms exceeded
+[Screenshots] FAILED 08_contacts: Navigation timeout of 15000 ms exceeded
+[Screenshots] FAILED 09_simulator_panel: Navigation timeout of 15000 ms exceeded
+[Screenshots] FAILED 10_ml_console: Navigation timeout of 15000 ms exceeded
+[Screenshots] FAILED 11_settings: Navigation timeout of 15000 ms exceeded
+[Screenshots] FAILED 12_dark_mode: Navigation timeout of 15000 ms exceeded
+[Screenshots] Fatal error: EBUSY: resource busy or locked, open 'C:\Users\MUKESH S\Documents\PROJECTS\iot-dnn\docs\evidence\screenshot_log.txt'

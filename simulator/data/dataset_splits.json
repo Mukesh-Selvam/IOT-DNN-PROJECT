@@ -1,0 +1,14 @@
+{
+  "windowCounts": {
+    "total": 20500,
+    "train": 14387,
+    "val": 3040,
+    "test": 3073
+  },
+  "runCounts": {
+    "total": 1953,
+    "train": 1367,
+    "val": 292,
+    "test": 294
+  }
+}

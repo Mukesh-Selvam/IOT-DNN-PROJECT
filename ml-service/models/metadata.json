@@ -1,0 +1,245 @@
+{
+  "trained_at": "2026-10-28T09:53:47Z",
+  "n_samples": 20500,
+  "n_train": 14319,
+  "n_val": 3083,
+  "n_test": 3098,
+  "training_seconds": 1.2,
+  "feature_columns": [
+    "peakG",
+    "meanTotalG",
+    "rmsTotalG",
+    "stdTotalG",
+    "meanAx",
+    "meanAy",
+    "meanAz",
+    "maxJerkGPerS",
+    "speedInitial",
+    "speedFinal",
+    "speedDelta",
+    "speedDropRatio",
+    "maxGyroDps",
+    "meanGyroDps"
+  ],
+  "models": {
+    "dnn": {
+      "name": "AccidentDNN-4Layer",
+      "metrics": {
+        "accuracy": 0.9935,
+        "precision": 0.9495,
+        "recall": 0.9869,
+        "f1": 0.9678,
+        "auc_roc": 0.9906,
+        "confusion_matrix": [
+          [
+            2777,
+            16
+          ],
+          [
+            4,
+            301
+          ]
+        ]
+      },
+      "target_recall_achieved": true
+    },
+    "autoencoder": {
+      "name": "AutoencoderAnomalyDetector",
+      "metrics": {
+        "accuracy": 0.9697,
+        "precision": 0.8392,
+        "recall": 0.8557,
+        "f1": 0.8474,
+        "auc_roc": 0.9189,
+        "confusion_matrix": [
+          [
+            2743,
+            50
+          ],
+          [
+            44,
+            261
+          ]
+        ]
+      },
+      "threshold": 2.6878
+    },
+    "moment": {
+      "status": "skipped",
+      "message": "MOMENT foundation time-series model skipped (optional zero-shot baseline, GPU required)",
+      "model_name": "AutonLab/MOMENT-1-large"
+    }
+  },
+  "metrics": {
+    "accuracy": 0.9935,
+    "precision": 0.9495,
+    "recall": 0.9869,
+    "f1": 0.9678,
+    "auc_roc": 0.9906,
+    "confusion_matrix": [
+      [
+        2777,
+        16
+      ],
+      [
+        4,
+        301
+      ]
+    ]
+  },
+  "scenario_breakdown": {
+    "rollover": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "auc_roc": 1.0,
+      "confusion_matrix": [
+        [
+          178,
+          0
+        ],
+        [
+          0,
+          100
+        ]
+      ]
+    },
+    "sharp_turn": {
+      "accuracy": 1.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc_roc": 0.5,
+      "confusion_matrix": [
+        [
+          243,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "rear_end": {
+      "accuracy": 0.9465,
+      "precision": 0.8353,
+      "recall": 0.9726,
+      "f1": 0.8987,
+      "auc_roc": 0.9553,
+      "confusion_matrix": [
+        [
+          212,
+          14
+        ],
+        [
+          2,
+          71
+        ]
+      ]
+    },
+    "hard_braking": {
+      "accuracy": 0.995,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc_roc": 0.5,
+      "confusion_matrix": [
+        [
+          395,
+          2
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "pothole": {
+      "accuracy": 1.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc_roc": 0.5,
+      "confusion_matrix": [
+        [
+          417,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "normal": {
+      "accuracy": 1.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc_roc": 0.5,
+      "confusion_matrix": [
+        [
+          796,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "frontal_collision": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "auc_roc": 1.0,
+      "confusion_matrix": [
+        [
+          320,
+          0
+        ],
+        [
+          0,
+          72
+        ]
+      ]
+    },
+    "side_impact": {
+      "accuracy": 0.9928,
+      "precision": 1.0,
+      "recall": 0.9667,
+      "f1": 0.9831,
+      "auc_roc": 0.9833,
+      "confusion_matrix": [
+        [
+          216,
+          0
+        ],
+        [
+          2,
+          58
+        ]
+      ]
+    }
+  },
+  "noise_stress_test_3x": {
+    "accuracy": 0.2815,
+    "precision": 0.1205,
+    "recall": 1.0,
+    "f1": 0.2151,
+    "auc_roc": 0.6015,
+    "confusion_matrix": [
+      [
+        567,
+        2226
+      ],
+      [
+        0,
+        305
+      ]
+    ]
+  }
+}

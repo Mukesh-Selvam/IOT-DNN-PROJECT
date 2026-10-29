@@ -1,0 +1,159 @@
+services:
+  # ==========================================
+  # MQTT Message Broker (Eclipse Mosquitto)
+  # ==========================================
+  mosquitto:
+    image: eclipse-mosquitto:2.0
+    container_name: iot_mosquitto
+    restart: unless-stopped
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mosquitto/config/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - mosquitto-data:/mosquitto/data
+      - mosquitto-log:/mosquitto/log
+    healthcheck:
+      test: ["CMD-SHELL", "mosquitto_sub -t '$$SYS/#' -C 1 -i 'healthcheck' -W 3 || exit 0"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    networks:
+      - iot-network
+
+  # ==========================================
+  # Database (MongoDB)
+  # ==========================================
+  mongodb:
+    image: mongo:6.0
+    container_name: iot_mongodb
+    restart: unless-stopped
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongo-data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - iot-network
+
+  # ==========================================
+  # ML Inference & Training Service (FastAPI)
+  # ==========================================
+  ml-service:
+    build:
+      context: ./ml-service
+      dockerfile: Dockerfile
+    container_name: iot_ml_service
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - HOST=0.0.0.0
+      - MODEL_DIR=/app/models
+    volumes:
+      - ./ml-service/models:/app/models
+      - ./ml-service/reports:/app/reports
+    healthcheck:
+      test: ["CMD-SHELL", "python -c 'import urllib.request; urllib.request.urlopen(\"http://localhost:8000/metrics\")' || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+    networks:
+      - iot-network
+
+  # ==========================================
+  # Backend Orchestrator & API (Node.js/Express)
+  # ==========================================
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: iot_backend
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - NODE_ENV=production
+      - MONGODB_URI=mongodb://mongodb:27017/iot_accident_detection
+      - MQTT_BROKER_URL=mqtt://mosquitto:1883
+      - ML_SERVICE_URL=http://ml-service:8000
+      - JWT_SECRET=iot_accident_detection_jwt_secret_key_2026_xyz
+      - JWT_EXPIRES_IN=7d
+      - CORS_ORIGIN=http://localhost:5173
+      - ACCIDENT_CONFIDENCE_THRESHOLD=0.75
+      - PEAK_G_THRESHOLD=4.0
+      - CANCELLATION_WINDOW_SECONDS=15
+      - ALERT_DEBOUNCE_SECONDS=30
+    depends_on:
+      mongodb:
+        condition: service_healthy
+      mosquitto:
+        condition: service_started
+      ml-service:
+        condition: service_started
+    networks:
+      - iot-network
+
+  # ==========================================
+  # Device Simulator (Virtual ESP32 Fleet)
+  # ==========================================
+  simulator:
+    build:
+      context: ./simulator
+      dockerfile: Dockerfile
+    container_name: iot_simulator
+    restart: unless-stopped
+    ports:
+      - "5055:5055"
+    environment:
+      - MQTT_URL=mqtt://mosquitto:1883
+      - VEHICLE_COUNT=3
+      - SAMPLE_RATE_HZ=50
+      - NOISE_SCALE=1.0
+      - AUTO_EVENTS=true
+      - INCLUDE_GROUND_TRUTH=false
+      - POST_CRASH_HOLD_SEC=20
+      - LOCAL_TRIGGER=true
+      - LOCAL_THRESHOLD_G=4.0
+      - CANCEL_WINDOW_SEC=15
+      - CONTROL_PORT=5055
+    depends_on:
+      mosquitto:
+        condition: service_started
+    networks:
+      - iot-network
+
+  # ==========================================
+  # Frontend Web Dashboard (React + Vite)
+  # ==========================================
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: iot_dashboard
+    restart: unless-stopped
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=http://localhost:5000
+      - VITE_SOCKET_URL=http://localhost:5000
+      - VITE_ML_URL=http://localhost:8000
+    depends_on:
+      - server
+    networks:
+      - iot-network
+
+networks:
+  iot-network:
+    driver: bridge
+
+volumes:
+  mongo-data:
+  mosquitto-data:
+  mosquitto-log:

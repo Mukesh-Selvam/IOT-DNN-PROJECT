@@ -1,0 +1,33 @@
+
+================================================================================
+3-HOUR NORMAL DRIVING SOAK TEST RESULTS (REAL PIPELINE, GROUND TRUTH OFF)
+================================================================================
+Pipeline Mode:                   Real In-Process Pipeline (Features -> Pre-Filter -> DNN / Fallback)
+Ground Truth Isolation:          STRICTLY OFF (no meta fields, pure IMU kinematics)
+Total Vehicles Monitored:        3
+Driving Time per Vehicle:        1.0 hour(s) (3,600 s each)
+Total Monitored Driving Time:    3.0 hours (10,800 s total)
+Execution Wall Duration:         1.67 seconds
+
+WINDOW & SCREENING BREAKDOWN:
+  Total 2s Sliding Windows:      10797
+  Quiescent Blocked by Filter:   10608 (98.25%)
+  Windows Reaching DNN/Fallback: 189 (1.75%)
+
+INJECTED NON-ACCIDENT PERTURBATIONS:
+  - Potholes (up to 1.3x amp):   185
+  - Hard Braking Maneuvers:      164
+  - Sharp Steering Turns:        136
+  - Total Injected Events:       485 (>= 300 required)
+
+INCIDENTS TRIGGERED:
+  - Machine Learning (DNN):      0
+  - Rule-Based Fallback Engine:  0
+  - Total False Alarms:          0
+
+STATISTICAL FALSE ALARM RATE (FAR):
+  - Point Estimate (FAR/hr):     0.0000 incidents / vehicle-hour
+  - 95% Upper Bound (FAR/hr):    1.0000 incidents / vehicle-hour (Rule of Three)
+  - Target False Alarms:         0
+  - Test Status:                 PASSED (ZERO FALSE ALARMS WITH >300 EVENTS)
+================================================================================

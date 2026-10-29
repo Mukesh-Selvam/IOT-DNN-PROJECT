@@ -1,0 +1,8 @@
+================================================================================
+STARTING CLOSED-LOOP END-TO-END SYSTEM EVALUATION
+================================================================================
+[E2E] Connected to running backend at http://127.0.0.1:5000
+[E2E] Registering test user: e2e_1793165644829@testlab.com
+[E2E] JWT acquired (eyJhbGciOiJIUzI1NiIs...)
+
+[E2E Phase 1] Testing 8 Scenarios x 10 Runs Each (Real API Ingestion)...

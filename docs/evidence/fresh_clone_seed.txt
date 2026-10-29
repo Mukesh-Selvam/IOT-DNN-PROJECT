@@ -1,0 +1,13 @@
+
+> iot-accident-backend@1.0.0 seed
+> node scripts/seed.js
+
+[Seed] Connecting to MongoDB at mongodb://mongodb:27017/iot_accident_detection...
+[Seed] Seeding database collections...
+[Seed] Γ£à Seeded Admin User: admin@fleetlab.com
+[Seed] Γ£à Seeded 3 IoT Fleet Devices
+[Seed] Γ£à Seeded 2 Emergency Contacts
+[Seed] Γ£à Seeded Global System Settings
+======================================================
+DATABASE SEEDING COMPLETED SUCCESSFULLY
+======================================================

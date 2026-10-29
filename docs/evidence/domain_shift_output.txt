@@ -1,0 +1,32 @@
+
+================================================================================
+DOMAIN-SHIFT PERTURBED EVALUATION RESULTS (N = 3000)
+Perturbations: Duration +-30%, 25Hz Ringing, Bias +-0.25g/+-12deg/s, Noise 3.5-5.0x, Speeds 15-115 km/h
+================================================================================
+MODEL: Deep Neural Network (DNN)
+  - Accuracy:   96.73% +- 0.64%
+  - Precision:  80.69% +- 3.60%
+  - Recall:     97.64% +- 1.52%
+  - F1-Score:   0.8836
+  - ROC-AUC:    0.9712
+  - Latency:    0.001 ms
+  - Confusion Matrix: TN=2530, FP=89, FN=9, TP=372
+
+MODEL: Rule-Based Fallback Engine
+  - Accuracy:   98.27% +- 0.47%
+  - Precision:  100.00% +- 0.00%
+  - Recall:     86.35% +- 3.45%
+  - F1-Score:   0.9268
+  - ROC-AUC:    0.9318
+  - Latency:    0.000 ms
+  - Confusion Matrix: TN=2619, FP=0, FN=52, TP=329
+
+MODEL: Unsupervised Autoencoder Baseline
+  - Accuracy:   70.20% +- 1.64%
+  - Precision:  29.88% +- 2.51%
+  - Recall:     100.00% +- 0.00%
+  - F1-Score:   0.4601
+  - ROC-AUC:    0.8293
+  - Latency:    0.008 ms
+  - Confusion Matrix: TN=1725, FP=894, FN=0, TP=381
+================================================================================

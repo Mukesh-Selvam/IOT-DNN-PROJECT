@@ -1,0 +1,15 @@
+VITEST CLIENT TEST RESULTS
+Date: 2026-10-28T05:51:12Z
+
+> iot-accident-client@1.0.0 test
+> vitest run --run
+
+ RUN  v1.6.1 C:/Users/MUKESH S/Documents/PROJECTS/iot-dnn/client
+
+ ✓ src/__tests__/authGuard.test.jsx  (3 tests) 2151ms
+ ✓ src/__tests__/controlPanel.test.jsx  (4 tests) 2763ms
+ ✓ src/__tests__/bannerCountdown.test.jsx  (3 tests) 1934ms
+
+ Test Files  3 passed (3)
+      Tests  10 passed (10)
+   Duration  30.64s

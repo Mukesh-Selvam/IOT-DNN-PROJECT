@@ -1,0 +1,140 @@
+{
+  "info": {
+    "_postman_id": "iot-accident-detection-api-v1",
+    "name": "IoT Accident Detection & Alert System API",
+    "description": "Complete REST API collection for IoT Vehicle Accident Detection & Alert System including Auth, Incidents, Telemetry, Devices, Emergency Contacts, and ML Services.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:5000" },
+    { "key": "mlUrl", "value": "http://localhost:8000" },
+    { "key": "simUrl", "value": "http://localhost:5055" },
+    { "key": "authToken", "value": "" }
+  ],
+  "item": [
+    {
+      "name": "System Health",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/health"
+      }
+    },
+    {
+      "name": "Auth - Register",
+      "request": {
+        "method": "POST",
+        "url": "{{baseUrl}}/api/auth/register",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Fleet Operator\",\n  \"email\": \"operator@fleetlab.com\",\n  \"password\": \"FleetPass#123\"\n}"
+        }
+      }
+    },
+    {
+      "name": "Auth - Login",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "var jsonData = pm.response.json();",
+              "if (jsonData.token) { pm.collectionVariables.set('authToken', jsonData.token); }"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "url": "{{baseUrl}}/api/auth/login",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"admin@fleetlab.com\",\n  \"password\": \"AdminPass#123\"\n}"
+        }
+      }
+    },
+    {
+      "name": "Telemetry - Ingest Sample (HTTP Fallback)",
+      "request": {
+        "method": "POST",
+        "url": "{{baseUrl}}/api/telemetry",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"deviceId\": \"ESP32-SIM-001\",\n  \"ts\": 1710000000000,\n  \"accel\": { \"x\": 0.1, \"y\": 0.05, \"z\": 1.0 },\n  \"gyro\": { \"x\": 0.2, \"y\": -0.1, \"z\": 0.0 },\n  \"gps\": { \"lat\": 10.998, \"lng\": 76.966, \"speed\": 55.0 },\n  \"speed\": 55.0,\n  \"buzzer\": \"OFF\"\n}"
+        }
+      }
+    },
+    {
+      "name": "Incidents - List All",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/incidents",
+        "header": [{ "key": "Authorization", "value": "Bearer {{authToken}}" }]
+      }
+    },
+    {
+      "name": "Incidents - Cancel False Alarm",
+      "request": {
+        "method": "POST",
+        "url": "{{baseUrl}}/api/incidents/:id/cancel",
+        "header": [
+          { "key": "Authorization", "value": "Bearer {{authToken}}" },
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"reason\": \"Driver pressed dashboard cancel button\"\n}"
+        }
+      }
+    },
+    {
+      "name": "Devices - List Fleet",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/devices",
+        "header": [{ "key": "Authorization", "value": "Bearer {{authToken}}" }]
+      }
+    },
+    {
+      "name": "ML Service - Health Check",
+      "request": {
+        "method": "GET",
+        "url": "{{mlUrl}}/health"
+      }
+    },
+    {
+      "name": "ML Service - Get Model Metrics",
+      "request": {
+        "method": "GET",
+        "url": "{{mlUrl}}/metrics"
+      }
+    },
+    {
+      "name": "ML Service - Predict Accident",
+      "request": {
+        "method": "POST",
+        "url": "{{mlUrl}}/predict",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"deviceId\": \"ESP32-SIM-001\",\n  \"features\": {\n    \"peakG\": 9.8,\n    \"meanTotalG\": 2.4,\n    \"rmsTotalG\": 3.6,\n    \"stdTotalG\": 2.1,\n    \"meanAx\": 1.4,\n    \"meanAy\": -0.6,\n    \"meanAz\": 0.8,\n    \"maxJerkGPerS\": 140.0,\n    \"speedInitial\": 65.0,\n    \"speedFinal\": 0.0,\n    \"speedDelta\": 65.0,\n    \"speedDropRatio\": 1.0,\n    \"maxGyroDps\": 160.0,\n    \"meanGyroDps\": 48.0\n  }\n}"
+        }
+      }
+    },
+    {
+      "name": "Simulator Control - Trigger Crash",
+      "request": {
+        "method": "POST",
+        "url": "{{simUrl}}/scenario",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"deviceId\": \"ESP32-SIM-001\",\n  \"scenario\": \"frontal_collision\"\n}"
+        }
+      }
+    }
+  ]
+}

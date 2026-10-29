@@ -1,0 +1,1297 @@
+================================================================================
+STARTING CLOSED-LOOP END-TO-END SYSTEM EVALUATION
+================================================================================
+[E2E] No running server found ΓÇô booting embedded server with MongoMemoryServer...
+Downloading MongoDB "8.2.6": 0% (0mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 0.4% (3.3mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 1.2% (9.6mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 2.3% (17.8mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 3.4% (26.4mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 4.3% (33.4mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 5.5% (43mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 6.2% (48.4mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 6.8% (52.8mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 7.6% (59.7mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 8.3% (64.5mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 8.9% (69.2mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 9.4% (73.3mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 9.9% (77.6mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 10.6% (82.6mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 11.3% (87.9mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 11.9% (92.7mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 12.7% (99.3mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 13.5% (105.7mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 14.3% (111.8mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 15.6% (121.5mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 16.9% (132.1mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 18.1% (141.2mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 19.4% (151.6mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 20.1% (157.3mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 21.1% (165.1mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 22.5% (176mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 24.1% (188.3mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 25.1% (196.1mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 26% (202.9mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 27.1% (212mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 28.6% (223.7mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 30% (234.6mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 31.5% (246.2mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 32.5% (253.8mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 33.8% (263.9mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 35.2% (275.3mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 36.5% (285.3mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 37.7% (294.8mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 39.4% (308.1mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 41.7% (326mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 43.8% (341.9mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 46.1% (360mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 48.5% (378.5mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 51% (398.3mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 53.7% (419.1mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 56.5% (441mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 58.4% (456.3mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 60.6% (473.5mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 61.8% (483mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 63% (492.4mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 64.3% (502.2mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 66.3% (517.5mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 68.1% (531.9mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 69.8% (545.3mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 71.1% (555.5mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 72.9% (569.2mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 74.4% (581.5mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 75.7% (591.4mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 77% (601.2mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 78.1% (610.4mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 79.6% (621.5mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 81.2% (634.5mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 81.7% (637.8mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 83.1% (649.1mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 85% (664.1mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 86.9% (678.5mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 88.9% (694.2mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 90% (702.9mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 91.7% (716.1mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 94% (734mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 96.4% (753.2mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 98.9% (772.6mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 100% (781.1mb / 781.1mb)[0G
+Downloading MongoDB "8.2.6": 100% (0mb / 0mb)[0G
+[E2E] Embedded server listening at http://127.0.0.1:55959 (OS-assigned port)
+[E2E] Registering test user: e2e_1793163171494@testlab.com
+[E2E] JWT acquired (eyJhbGciOiJIUzI1NiIs...)
+
+[E2E Phase 1] Testing 8 Scenarios x 10 Runs Each (Real API Ingestion)...
+[35m[2026-10-28T04:53:22.837Z] [INCIDENT] [E2E-FRON-01] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 11.36g
+[35m[2026-10-28T04:53:22.867Z] [INCIDENT] [E2E-FRON-01] PENDING_CONFIRMATION[0m Incident created: 6ae17fc229c97dcfb8dfac3a (Peak: 11.36g, 15s countdown)
+[35m[2026-10-28T04:53:22.896Z] [INCIDENT] [E2E-FRON-01] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 11.36g
+[35m[2026-10-28T04:53:23.648Z] [INCIDENT] [E2E-FRON-02] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 10.33g
+[35m[2026-10-28T04:53:23.699Z] [INCIDENT] [E2E-FRON-02] PENDING_CONFIRMATION[0m Incident created: 6ae17fc329c97dcfb8dfaca4 (Peak: 10.33g, 15s countdown)
+[35m[2026-10-28T04:53:23.753Z] [INCIDENT] [E2E-FRON-02] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 10.33g
+[35m[2026-10-28T04:53:24.732Z] [INCIDENT] [E2E-FRON-03] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 12.74g
+[35m[2026-10-28T04:53:24.751Z] [INCIDENT] [E2E-FRON-03] PENDING_CONFIRMATION[0m Incident created: 6ae17fc429c97dcfb8dfaf03 (Peak: 12.74g, 15s countdown)
+[35m[2026-10-28T04:53:24.776Z] [INCIDENT] [E2E-FRON-03] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 12.74g
+[35m[2026-10-28T04:53:25.591Z] [INCIDENT] [E2E-FRON-04] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 13.24g
+[35m[2026-10-28T04:53:25.603Z] [INCIDENT] [E2E-FRON-04] PENDING_CONFIRMATION[0m Incident created: 6ae17fc529c97dcfb8dfb162 (Peak: 13.24g, 15s countdown)
+[35m[2026-10-28T04:53:25.623Z] [INCIDENT] [E2E-FRON-04] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 13.24g
+[35m[2026-10-28T04:53:26.325Z] [INCIDENT] [E2E-FRON-05] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 11.04g
+[35m[2026-10-28T04:53:26.341Z] [INCIDENT] [E2E-FRON-05] PENDING_CONFIRMATION[0m Incident created: 6ae17fc629c97dcfb8dfb1cc (Peak: 11.04g, 15s countdown)
+[35m[2026-10-28T04:53:26.376Z] [INCIDENT] [E2E-FRON-05] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 11.04g
+[35m[2026-10-28T04:53:27.153Z] [INCIDENT] [E2E-FRON-06] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 9.62g
+[35m[2026-10-28T04:53:27.169Z] [INCIDENT] [E2E-FRON-06] PENDING_CONFIRMATION[0m Incident created: 6ae17fc729c97dcfb8dfb42b (Peak: 9.62g, 15s countdown)
+[35m[2026-10-28T04:53:27.197Z] [INCIDENT] [E2E-FRON-06] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 9.62g
+[35m[2026-10-28T04:53:27.925Z] [INCIDENT] [E2E-FRON-07] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 12.03g
+[35m[2026-10-28T04:53:27.941Z] [INCIDENT] [E2E-FRON-07] PENDING_CONFIRMATION[0m Incident created: 6ae17fc729c97dcfb8dfb495 (Peak: 12.03g, 15s countdown)
+[35m[2026-10-28T04:53:27.974Z] [INCIDENT] [E2E-FRON-07] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 12.03g
+[35m[2026-10-28T04:53:28.773Z] [INCIDENT] [E2E-FRON-08] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 12.41g
+[35m[2026-10-28T04:53:28.784Z] [INCIDENT] [E2E-FRON-08] PENDING_CONFIRMATION[0m Incident created: 6ae17fc829c97dcfb8dfb6f4 (Peak: 12.41g, 15s countdown)
+[35m[2026-10-28T04:53:28.806Z] [INCIDENT] [E2E-FRON-08] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 12.41g
+[35m[2026-10-28T04:53:29.601Z] [INCIDENT] [E2E-FRON-09] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 11.92g
+[35m[2026-10-28T04:53:29.613Z] [INCIDENT] [E2E-FRON-09] PENDING_CONFIRMATION[0m Incident created: 6ae17fc929c97dcfb8dfb953 (Peak: 11.92g, 15s countdown)
+[35m[2026-10-28T04:53:29.648Z] [INCIDENT] [E2E-FRON-09] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 11.92g
+[35m[2026-10-28T04:53:30.377Z] [INCIDENT] [E2E-FRON-10] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 8.95g
+[35m[2026-10-28T04:53:30.388Z] [INCIDENT] [E2E-FRON-10] PENDING_CONFIRMATION[0m Incident created: 6ae17fca29c97dcfb8dfb9bd (Peak: 8.95g, 15s countdown)
+[35m[2026-10-28T04:53:30.410Z] [INCIDENT] [E2E-FRON-10] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 8.95g
+[35m[2026-10-28T04:53:31.203Z] [INCIDENT] [E2E-SIDE-01] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 9.25g
+[35m[2026-10-28T04:53:31.217Z] [INCIDENT] [E2E-SIDE-01] PENDING_CONFIRMATION[0m Incident created: 6ae17fcb29c97dcfb8dfbc1c (Peak: 9.25g, 15s countdown)
+[35m[2026-10-28T04:53:31.242Z] [INCIDENT] [E2E-SIDE-01] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 9.25g
+[35m[2026-10-28T04:53:31.977Z] [INCIDENT] [E2E-SIDE-02] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 7.75g
+[35m[2026-10-28T04:53:31.988Z] [INCIDENT] [E2E-SIDE-02] PENDING_CONFIRMATION[0m Incident created: 6ae17fcb29c97dcfb8dfbc86 (Peak: 7.75g, 15s countdown)
+[35m[2026-10-28T04:53:32.015Z] [INCIDENT] [E2E-SIDE-02] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 7.75g
+[35m[2026-10-28T04:53:32.791Z] [INCIDENT] [E2E-SIDE-03] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 7.28g
+[35m[2026-10-28T04:53:32.808Z] [INCIDENT] [E2E-SIDE-03] PENDING_CONFIRMATION[0m Incident created: 6ae17fcc29c97dcfb8dfbee5 (Peak: 7.28g, 15s countdown)
+[35m[2026-10-28T04:53:32.842Z] [INCIDENT] [E2E-SIDE-03] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 7.28g
+[35m[2026-10-28T04:53:33.671Z] [INCIDENT] [E2E-SIDE-04] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 7.88g
+[35m[2026-10-28T04:53:33.686Z] [INCIDENT] [E2E-SIDE-04] PENDING_CONFIRMATION[0m Incident created: 6ae17fcd29c97dcfb8dfc144 (Peak: 7.88g, 15s countdown)
+[35m[2026-10-28T04:53:33.708Z] [INCIDENT] [E2E-SIDE-04] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 7.88g
+[35m[2026-10-28T04:53:34.444Z] [INCIDENT] [E2E-SIDE-05] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 8.27g
+[35m[2026-10-28T04:53:34.462Z] [INCIDENT] [E2E-SIDE-05] PENDING_CONFIRMATION[0m Incident created: 6ae17fce29c97dcfb8dfc1ae (Peak: 8.27g, 15s countdown)
+[35m[2026-10-28T04:53:34.498Z] [INCIDENT] [E2E-SIDE-05] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 8.27g
+[35m[2026-10-28T04:53:35.308Z] [INCIDENT] [E2E-SIDE-06] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 10.87g
+[35m[2026-10-28T04:53:35.319Z] [INCIDENT] [E2E-SIDE-06] PENDING_CONFIRMATION[0m Incident created: 6ae17fcf29c97dcfb8dfc40d (Peak: 10.87g, 15s countdown)
+[35m[2026-10-28T04:53:35.342Z] [INCIDENT] [E2E-SIDE-06] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 10.87g
+[35m[2026-10-28T04:53:36.069Z] [INCIDENT] [E2E-SIDE-07] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 9.62g
+[35m[2026-10-28T04:53:36.081Z] [INCIDENT] [E2E-SIDE-07] PENDING_CONFIRMATION[0m Incident created: 6ae17fd029c97dcfb8dfc477 (Peak: 9.62g, 15s countdown)
+[35m[2026-10-28T04:53:36.102Z] [INCIDENT] [E2E-SIDE-07] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 9.62g
+[35m[2026-10-28T04:53:36.908Z] [INCIDENT] [E2E-SIDE-08] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 9.3g
+[35m[2026-10-28T04:53:36.919Z] [INCIDENT] [E2E-SIDE-08] PENDING_CONFIRMATION[0m Incident created: 6ae17fd029c97dcfb8dfc6d6 (Peak: 9.3g, 15s countdown)
+[35m[2026-10-28T04:53:36.944Z] [INCIDENT] [E2E-SIDE-08] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 9.3g
+[35m[2026-10-28T04:53:42.494Z] [INCIDENT] [E2E-FRON-01] CONFIRMED[0m Incident 6ae17fc229c97dcfb8dfac3a officially confirmed.
+[35m[2026-10-28T04:53:42.496Z] [INCIDENT] [E2E-FRON-02] CONFIRMED[0m Incident 6ae17fc329c97dcfb8dfaca4 officially confirmed.
+[35m[2026-10-28T04:53:42.498Z] [INCIDENT] [E2E-FRON-03] CONFIRMED[0m Incident 6ae17fc429c97dcfb8dfaf03 officially confirmed.
+[35m[2026-10-28T04:53:42.500Z] [INCIDENT] [E2E-FRON-04] CONFIRMED[0m Incident 6ae17fc529c97dcfb8dfb162 officially confirmed.
+[35m[2026-10-28T04:53:42.503Z] [INCIDENT] [E2E-FRON-05] CONFIRMED[0m Incident 6ae17fc629c97dcfb8dfb1cc officially confirmed.
+[35m[2026-10-28T04:53:42.505Z] [INCIDENT] [E2E-FRON-06] CONFIRMED[0m Incident 6ae17fc729c97dcfb8dfb42b officially confirmed.
+[35m[2026-10-28T04:53:42.613Z] [INCIDENT] [E2E-FRON-01] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FRON-01 (E2E-FRON-01)
+Time: 28/10/2026, 10:23:22 am
+Impact Peak: 11.36 g
+Speed at Impact: 60 km/h
+Confidence: 96%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[35m[2026-10-28T04:53:42.624Z] [INCIDENT] [E2E-FRON-02] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FRON-02 (E2E-FRON-02)
+Time: 28/10/2026, 10:23:23 am
+Impact Peak: 10.33 g
+Speed at Impact: 60 km/h
+Confidence: 96%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[35m[2026-10-28T04:53:42.626Z] [INCIDENT] [E2E-FRON-03] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FRON-03 (E2E-FRON-03)
+Time: 28/10/2026, 10:23:24 am
+Impact Peak: 12.74 g
+Speed at Impact: 60 km/h
+Confidence: 96%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[35m[2026-10-28T04:53:42.629Z] [INCIDENT] [E2E-FRON-04] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FRON-04 (E2E-FRON-04)
+Time: 28/10/2026, 10:23:25 am
+Impact Peak: 13.24 g
+Speed at Impact: 60 km/h
+Confidence: 96%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[35m[2026-10-28T04:53:42.632Z] [INCIDENT] [E2E-FRON-05] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FRON-05 (E2E-FRON-05)
+Time: 28/10/2026, 10:23:26 am
+Impact Peak: 11.04 g
+Speed at Impact: 60 km/h
+Confidence: 96%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[35m[2026-10-28T04:53:42.635Z] [INCIDENT] [E2E-FRON-06] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FRON-06 (E2E-FRON-06)
+Time: 28/10/2026, 10:23:27 am
+Impact Peak: 9.62 g
+Speed at Impact: 60 km/h
+Confidence: 96%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[35m[2026-10-28T04:53:42.970Z] [INCIDENT] [E2E-FRON-07] CONFIRMED[0m Incident 6ae17fc729c97dcfb8dfb495 officially confirmed.
+[35m[2026-10-28T04:53:42.975Z] [INCIDENT] [E2E-FRON-07] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FRON-07 (E2E-FRON-07)
+Time: 28/10/2026, 10:23:27 am
+Impact Peak: 12.03 g
+Speed at Impact: 60 km/h
+Confidence: 96%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[35m[2026-10-28T04:53:43.013Z] [INCIDENT] [E2E-SIDE-09] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 9.08g
+[35m[2026-10-28T04:53:43.034Z] [INCIDENT] [E2E-SIDE-09] PENDING_CONFIRMATION[0m Incident created: 6ae17fd729c97dcfb8dfcee5 (Peak: 9.08g, 15s countdown)
+[35m[2026-10-28T04:53:43.079Z] [INCIDENT] [E2E-SIDE-09] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 9.08g
+[36m[2026-10-28T04:53:43.468Z] [INFO][0m [Alert Service] Created Ethereal test email account: mmbdwdj74hbcfe43@ethereal.email
+[36m[2026-10-28T04:53:43.476Z] [INFO][0m [Alert Service] Created Ethereal test email account: i4b6zr3ge5pt36j7@ethereal.email
+[36m[2026-10-28T04:53:43.478Z] [INFO][0m [Alert Service] Created Ethereal test email account: fw26gemudc6pvomy@ethereal.email
+[36m[2026-10-28T04:53:43.480Z] [INFO][0m [Alert Service] Created Ethereal test email account: ypltsh3mbgppajsg@ethereal.email
+[36m[2026-10-28T04:53:43.482Z] [INFO][0m [Alert Service] Created Ethereal test email account: v4p3edhsi4542fq2@ethereal.email
+[36m[2026-10-28T04:53:43.504Z] [INFO][0m [Alert Service] Created Ethereal test email account: cxequ2hvoblzb4ez@ethereal.email
+[36m[2026-10-28T04:53:43.687Z] [INFO][0m [Alert Service] Created Ethereal test email account: myuho42auspr3j3g@ethereal.email
+[35m[2026-10-28T04:53:43.803Z] [INCIDENT] [E2E-FRON-08] CONFIRMED[0m Incident 6ae17fc829c97dcfb8dfb6f4 officially confirmed.
+[35m[2026-10-28T04:53:43.809Z] [INCIDENT] [E2E-FRON-08] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FRON-08 (E2E-FRON-08)
+Time: 28/10/2026, 10:23:28 am
+Impact Peak: 12.41 g
+Speed at Impact: 60 km/h
+Confidence: 96%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[35m[2026-10-28T04:53:44.054Z] [INCIDENT] [E2E-SIDE-10] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 10.34g
+[35m[2026-10-28T04:53:44.084Z] [INCIDENT] [E2E-SIDE-10] PENDING_CONFIRMATION[0m Incident created: 6ae17fd829c97dcfb8dfd35f (Peak: 10.34g, 15s countdown)
+[35m[2026-10-28T04:53:44.160Z] [INCIDENT] [E2E-SIDE-10] ACCIDENT_CLASSIFIED[0m Confidence: 96%, Source: ML, Peak: 10.34g
+[35m[2026-10-28T04:53:44.640Z] [INCIDENT] [E2E-FRON-09] CONFIRMED[0m Incident 6ae17fc929c97dcfb8dfb953 officially confirmed.
+[35m[2026-10-28T04:53:44.646Z] [INCIDENT] [E2E-FRON-09] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FRON-09 (E2E-FRON-09)
+Time: 28/10/2026, 10:23:29 am
+Impact Peak: 11.92 g
+Speed at Impact: 60 km/h
+Confidence: 96%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[35m[2026-10-28T04:53:45.413Z] [INCIDENT] [E2E-FRON-10] CONFIRMED[0m Incident 6ae17fca29c97dcfb8dfb9bd officially confirmed.
+[35m[2026-10-28T04:53:45.421Z] [INCIDENT] [E2E-FRON-10] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FRON-10 (E2E-FRON-10)
+Time: 28/10/2026, 10:23:30 am
+Impact Peak: 8.95 g
+Speed at Impact: 60 km/h
+Confidence: 96%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[35m[2026-10-28T04:53:46.241Z] [INCIDENT] [E2E-SIDE-01] CONFIRMED[0m Incident 6ae17fcb29c97dcfb8dfbc1c officially confirmed.
+[35m[2026-10-28T04:53:46.245Z] [INCIDENT] [E2E-SIDE-01] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-SIDE-01 (E2E-SIDE-01)
+Time: 28/10/2026, 10:23:31 am
+Impact Peak: 9.25 g
+Speed at Impact: 60 km/h
+Confidence: 96%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[35m[2026-10-28T04:53:47.008Z] [INCIDENT] [E2E-SIDE-02] CONFIRMED[0m Incident 6ae17fcb29c97dcfb8dfbc86 officially confirmed.
+[35m[2026-10-28T04:53:47.013Z] [INCIDENT] [E2E-SIDE-02] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-SIDE-02 (E2E-SIDE-02)
+Time: 28/10/2026, 10:23:31 am
+Impact Peak: 7.75 g
+Speed at Impact: 60 km/h
+Confidence: 96%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[35m[2026-10-28T04:53:47.828Z] [INCIDENT] [E2E-SIDE-03] CONFIRMED[0m Incident 6ae17fcc29c97dcfb8dfbee5 officially confirmed.
+[35m[2026-10-28T04:53:47.834Z] [INCIDENT] [E2E-SIDE-03] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-SIDE-03 (E2E-SIDE-03)
+Time: 28/10/2026, 10:23:32 am
+Impact Peak: 7.28 g
+Speed at Impact: 60 km/h
+Confidence: 96%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[35m[2026-10-28T04:53:48.115Z] [INCIDENT] [E2E-ROLL-01] ACCIDENT_CLASSIFIED[0m Confidence: 93%, Source: RULE_BASED, Peak: 6.76g
+[2026-10-28T04:53:48.113Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T04:53:48.142Z] [INCIDENT] [E2E-ROLL-01] PENDING_CONFIRMATION[0m Incident created: 6ae17fdc29c97dcfb8dfdbd6 (Peak: 6.76g, 15s countdown)
+[35m[2026-10-28T04:53:48.697Z] [INCIDENT] [E2E-SIDE-04] CONFIRMED[0m Incident 6ae17fcd29c97dcfb8dfc144 officially confirmed.
+[35m[2026-10-28T04:53:48.702Z] [INCIDENT] [E2E-SIDE-04] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-SIDE-04 (E2E-SIDE-04)
+Time: 28/10/2026, 10:23:33 am
+Impact Peak: 7.88 g
+Speed at Impact: 60 km/h
+Confidence: 96%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[2026-10-28T05:07:10.001Z] [ERROR] [Incident] Error confirming incident 6ae17fce29c97dcfb8dfc1ae: Connection to 127.0.0.1:57132 interrupted due to server monitor timeout
+[2026-10-28T05:07:10.001Z] [ERROR] [Incident] Error confirming incident 6ae17fcf29c97dcfb8dfc40d: Connection to 127.0.0.1:57132 interrupted due to server monitor timeout
+[2026-10-28T05:07:10.001Z] [ERROR] [Incident] Error confirming incident 6ae17fd029c97dcfb8dfc477: Connection to 127.0.0.1:57132 interrupted due to server monitor timeout
+[2026-10-28T05:07:10.001Z] [ERROR] [Incident] Error confirming incident 6ae17fd029c97dcfb8dfc6d6: Connection to 127.0.0.1:57132 interrupted due to server monitor timeout
+[2026-10-28T05:07:10.001Z] [ERROR] [Incident] Error confirming incident 6ae17fd729c97dcfb8dfcee5: Connection to 127.0.0.1:57132 interrupted due to server monitor timeout
+[2026-10-28T05:07:10.001Z] [ERROR] [Incident] Error confirming incident 6ae17fd829c97dcfb8dfd35f: Connection to 127.0.0.1:57132 interrupted due to server monitor timeout
+[2026-10-28T05:07:10.001Z] [ERROR] [Incident] Error confirming incident 6ae17fdc29c97dcfb8dfdbd6: Connection to 127.0.0.1:57132 interrupted due to server monitor timeout
+[2026-10-28T05:07:11.047Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:07:11.049Z] [INCIDENT] [E2E-ROLL-01] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 6.76g
+[35m[2026-10-28T05:07:11.104Z] [INCIDENT] [E2E-ROLL-01] PENDING_CONFIRMATION[0m Incident created: 6ae182ff29c97dcfb8dfe04e (Peak: 6.76g, 15s countdown)
+[2026-10-28T05:07:14.232Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:07:14.232Z] [INCIDENT] [E2E-ROLL-01] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 5.65g
+[2026-10-28T05:10:30.589Z] [ERROR] [Incident] Error confirming incident 6ae182ff29c97dcfb8dfe04e: Connection to 127.0.0.1:57132 interrupted due to server monitor timeout
+[2026-10-28T05:10:32.062Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:10:32.062Z] [INCIDENT] [E2E-ROLL-02] ACCIDENT_CLASSIFIED[0m Confidence: 93%, Source: RULE_BASED, Peak: 6.55g
+[35m[2026-10-28T05:10:32.081Z] [INCIDENT] [E2E-ROLL-02] PENDING_CONFIRMATION[0m Incident created: 6ae183c829c97dcfb8dfe120 (Peak: 6.55g, 15s countdown)
+[2026-10-28T05:10:35.132Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:10:35.132Z] [INCIDENT] [E2E-ROLL-02] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 6.55g
+[2026-10-28T05:10:38.446Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:10:38.448Z] [INCIDENT] [E2E-ROLL-02] ACCIDENT_CLASSIFIED[0m Confidence: 90%, Source: RULE_BASED, Peak: 3.51g
+[2026-10-28T05:10:43.316Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:10:43.316Z] [INCIDENT] [E2E-ROLL-03] ACCIDENT_CLASSIFIED[0m Confidence: 93%, Source: RULE_BASED, Peak: 6.19g
+[35m[2026-10-28T05:10:43.357Z] [INCIDENT] [E2E-ROLL-03] PENDING_CONFIRMATION[0m Incident created: 6ae183d329c97dcfb8dfe37f (Peak: 6.19g, 15s countdown)
+[2026-10-28T05:10:46.573Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:10:46.573Z] [INCIDENT] [E2E-ROLL-03] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 6.19g
+[35m[2026-10-28T05:10:47.112Z] [INCIDENT] [E2E-ROLL-02] CONFIRMED[0m Incident 6ae183c829c97dcfb8dfe120 officially confirmed.
+[35m[2026-10-28T05:10:47.124Z] [INCIDENT] [E2E-ROLL-02] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-ROLL-02 (E2E-ROLL-02)
+Time: 28/10/2026, 10:40:32 am
+Impact Peak: 6.55 g
+Speed at Impact: 60 km/h
+Confidence: 93%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[35m[2026-10-28T05:10:49.665Z] [INCIDENT] [E2E-ROLL-03] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 4.76g
+[2026-10-28T05:10:49.665Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[2026-10-28T05:10:52.807Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:10:52.807Z] [INCIDENT] [E2E-ROLL-03] ACCIDENT_CLASSIFIED[0m Confidence: 85%, Source: RULE_BASED, Peak: 1.05g
+[35m[2026-10-28T05:11:01.165Z] [INCIDENT] [E2E-ROLL-03] CONFIRMED[0m Incident 6ae183d329c97dcfb8dfe37f officially confirmed.
+[35m[2026-10-28T05:11:01.321Z] [INCIDENT] [E2E-ROLL-03] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-ROLL-03 (E2E-ROLL-03)
+Time: 28/10/2026, 10:40:43 am
+Impact Peak: 6.19 g
+Speed at Impact: 60 km/h
+Confidence: 93%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[2026-10-28T05:11:05.120Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:11:05.120Z] [INCIDENT] [E2E-ROLL-04] ACCIDENT_CLASSIFIED[0m Confidence: 93%, Source: RULE_BASED, Peak: 5.75g
+[35m[2026-10-28T05:11:05.320Z] [INCIDENT] [E2E-ROLL-04] PENDING_CONFIRMATION[0m Incident created: 6ae183e929c97dcfb8dfe84e (Peak: 5.75g, 15s countdown)
+[2026-10-28T05:11:08.699Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:11:08.700Z] [INCIDENT] [E2E-ROLL-04] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 5.75g
+[2026-10-28T05:11:12.019Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:11:12.019Z] [INCIDENT] [E2E-ROLL-04] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 4.25g
+[2026-10-28T05:11:15.430Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:11:15.430Z] [INCIDENT] [E2E-ROLL-04] ACCIDENT_CLASSIFIED[0m Confidence: 85%, Source: RULE_BASED, Peak: 1.03g
+[2026-10-28T05:11:19.619Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:11:19.620Z] [INCIDENT] [E2E-ROLL-05] ACCIDENT_CLASSIFIED[0m Confidence: 93%, Source: RULE_BASED, Peak: 5.56g
+[35m[2026-10-28T05:11:19.749Z] [INCIDENT] [E2E-ROLL-05] PENDING_CONFIRMATION[0m Incident created: 6ae183f729c97dcfb8dfe8b8 (Peak: 5.56g, 15s countdown)
+[35m[2026-10-28T05:11:20.370Z] [INCIDENT] [E2E-ROLL-04] CONFIRMED[0m Incident 6ae183e929c97dcfb8dfe84e officially confirmed.
+[35m[2026-10-28T05:11:20.388Z] [INCIDENT] [E2E-ROLL-04] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-ROLL-04 (E2E-ROLL-04)
+Time: 28/10/2026, 10:41:05 am
+Impact Peak: 5.75 g
+Speed at Impact: 60 km/h
+Confidence: 93%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[2026-10-28T05:11:23.079Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:11:23.080Z] [INCIDENT] [E2E-ROLL-05] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 5.56g
+[2026-10-28T05:11:26.346Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:11:26.346Z] [INCIDENT] [E2E-ROLL-05] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 5.46g
+[35m[2026-10-28T05:11:31.239Z] [INCIDENT] [E2E-ROLL-06] ACCIDENT_CLASSIFIED[0m Confidence: 93%, Source: RULE_BASED, Peak: 5.55g
+[2026-10-28T05:11:31.238Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:11:31.382Z] [INCIDENT] [E2E-ROLL-06] PENDING_CONFIRMATION[0m Incident created: 6ae1840329c97dcfb8dfec4f (Peak: 5.55g, 15s countdown)
+[2026-10-28T05:11:34.663Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:11:34.664Z] [INCIDENT] [E2E-ROLL-06] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 6.03g
+[35m[2026-10-28T05:11:34.792Z] [INCIDENT] [E2E-ROLL-05] CONFIRMED[0m Incident 6ae183f729c97dcfb8dfe8b8 officially confirmed.
+[35m[2026-10-28T05:11:34.827Z] [INCIDENT] [E2E-ROLL-05] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-ROLL-05 (E2E-ROLL-05)
+Time: 28/10/2026, 10:41:19 am
+Impact Peak: 5.56 g
+Speed at Impact: 60 km/h
+Confidence: 93%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[2026-10-28T05:11:38.166Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:11:38.166Z] [INCIDENT] [E2E-ROLL-06] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 6.03g
+[2026-10-28T05:11:42.511Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:11:42.511Z] [INCIDENT] [E2E-ROLL-07] ACCIDENT_CLASSIFIED[0m Confidence: 93%, Source: RULE_BASED, Peak: 7.1g
+[35m[2026-10-28T05:11:42.545Z] [INCIDENT] [E2E-ROLL-07] PENDING_CONFIRMATION[0m Incident created: 6ae1840e29c97dcfb8dfedf1 (Peak: 7.1g, 15s countdown)
+[2026-10-28T05:11:45.617Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:11:45.617Z] [INCIDENT] [E2E-ROLL-07] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 7.1g
+[35m[2026-10-28T05:11:46.406Z] [INCIDENT] [E2E-ROLL-06] CONFIRMED[0m Incident 6ae1840329c97dcfb8dfec4f officially confirmed.
+[35m[2026-10-28T05:11:46.416Z] [INCIDENT] [E2E-ROLL-06] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-ROLL-06 (E2E-ROLL-06)
+Time: 28/10/2026, 10:41:31 am
+Impact Peak: 5.55 g
+Speed at Impact: 60 km/h
+Confidence: 93%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[2026-10-28T05:11:48.949Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:11:48.949Z] [INCIDENT] [E2E-ROLL-07] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 4.97g
+[2026-10-28T05:11:52.045Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:11:52.046Z] [INCIDENT] [E2E-ROLL-07] ACCIDENT_CLASSIFIED[0m Confidence: 85%, Source: RULE_BASED, Peak: 1.02g
+[2026-10-28T05:11:55.857Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:11:55.857Z] [INCIDENT] [E2E-ROLL-08] ACCIDENT_CLASSIFIED[0m Confidence: 93%, Source: RULE_BASED, Peak: 5.93g
+[35m[2026-10-28T05:11:55.895Z] [INCIDENT] [E2E-ROLL-08] PENDING_CONFIRMATION[0m Incident created: 6ae1841b29c97dcfb8dff188 (Peak: 5.93g, 15s countdown)
+[35m[2026-10-28T05:11:57.573Z] [INCIDENT] [E2E-ROLL-07] CONFIRMED[0m Incident 6ae1840e29c97dcfb8dfedf1 officially confirmed.
+[35m[2026-10-28T05:11:57.583Z] [INCIDENT] [E2E-ROLL-07] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-ROLL-07 (E2E-ROLL-07)
+Time: 28/10/2026, 10:41:42 am
+Impact Peak: 7.1 g
+Speed at Impact: 60 km/h
+Confidence: 93%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[2026-10-28T05:11:58.999Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:11:58.999Z] [INCIDENT] [E2E-ROLL-08] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 5.93g
+[2026-10-28T05:12:02.114Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:12:02.114Z] [INCIDENT] [E2E-ROLL-08] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 5.21g
+[2026-10-28T05:12:05.217Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:12:05.217Z] [INCIDENT] [E2E-ROLL-08] ACCIDENT_CLASSIFIED[0m Confidence: 85%, Source: RULE_BASED, Peak: 1.04g
+[2026-10-28T05:12:09.292Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:12:09.293Z] [INCIDENT] [E2E-ROLL-09] ACCIDENT_CLASSIFIED[0m Confidence: 93%, Source: RULE_BASED, Peak: 6.54g
+[35m[2026-10-28T05:12:09.332Z] [INCIDENT] [E2E-ROLL-09] PENDING_CONFIRMATION[0m Incident created: 6ae1842929c97dcfb8dff51f (Peak: 6.54g, 15s countdown)
+[35m[2026-10-28T05:12:10.927Z] [INCIDENT] [E2E-ROLL-08] CONFIRMED[0m Incident 6ae1841b29c97dcfb8dff188 officially confirmed.
+[35m[2026-10-28T05:12:10.938Z] [INCIDENT] [E2E-ROLL-08] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-ROLL-08 (E2E-ROLL-08)
+Time: 28/10/2026, 10:41:55 am
+Impact Peak: 5.93 g
+Speed at Impact: 60 km/h
+Confidence: 93%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[2026-10-28T05:12:12.436Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:12:12.437Z] [INCIDENT] [E2E-ROLL-09] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 6.54g
+[35m[2026-10-28T05:12:15.540Z] [INCIDENT] [E2E-ROLL-09] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 5.2g
+[2026-10-28T05:12:15.540Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[2026-10-28T05:12:18.621Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:12:18.621Z] [INCIDENT] [E2E-ROLL-09] ACCIDENT_CLASSIFIED[0m Confidence: 85%, Source: RULE_BASED, Peak: 1.04g
+[2026-10-28T05:12:22.450Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:12:22.450Z] [INCIDENT] [E2E-ROLL-10] ACCIDENT_CLASSIFIED[0m Confidence: 93%, Source: RULE_BASED, Peak: 5.82g
+[35m[2026-10-28T05:12:22.485Z] [INCIDENT] [E2E-ROLL-10] PENDING_CONFIRMATION[0m Incident created: 6ae1843629c97dcfb8dff6c1 (Peak: 5.82g, 15s countdown)
+[35m[2026-10-28T05:12:24.356Z] [INCIDENT] [E2E-ROLL-09] CONFIRMED[0m Incident 6ae1842929c97dcfb8dff51f officially confirmed.
+[35m[2026-10-28T05:12:24.365Z] [INCIDENT] [E2E-ROLL-09] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-ROLL-09 (E2E-ROLL-09)
+Time: 28/10/2026, 10:42:09 am
+Impact Peak: 6.54 g
+Speed at Impact: 60 km/h
+Confidence: 93%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[2026-10-28T05:12:25.586Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:12:25.586Z] [INCIDENT] [E2E-ROLL-10] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 5.82g
+[2026-10-28T05:12:28.661Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:12:28.661Z] [INCIDENT] [E2E-ROLL-10] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 4.67g
+[2026-10-28T05:12:32.736Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[2026-10-28T05:12:35.822Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:12:35.822Z] [INCIDENT] [E2E-REAR-01] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 6.96g
+[35m[2026-10-28T05:12:35.860Z] [INCIDENT] [E2E-REAR-01] PENDING_CONFIRMATION[0m Incident created: 6ae1844329c97dcfb8dffa58 (Peak: 6.96g, 15s countdown)
+[35m[2026-10-28T05:12:37.512Z] [INCIDENT] [E2E-ROLL-10] CONFIRMED[0m Incident 6ae1843629c97dcfb8dff6c1 officially confirmed.
+[35m[2026-10-28T05:12:37.520Z] [INCIDENT] [E2E-ROLL-10] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-ROLL-10 (E2E-ROLL-10)
+Time: 28/10/2026, 10:42:22 am
+Impact Peak: 5.82 g
+Speed at Impact: 60 km/h
+Confidence: 93%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[2026-10-28T05:12:38.963Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:12:38.964Z] [INCIDENT] [E2E-REAR-01] ACCIDENT_CLASSIFIED[0m Confidence: 90%, Source: RULE_BASED, Peak: 2.1g
+[2026-10-28T05:12:42.905Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[2026-10-28T05:12:45.985Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:12:45.985Z] [INCIDENT] [E2E-REAR-02] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 6.4g
+[35m[2026-10-28T05:12:46.032Z] [INCIDENT] [E2E-REAR-02] PENDING_CONFIRMATION[0m Incident created: 6ae1844d29c97dcfb8dffbfa (Peak: 6.4g, 15s countdown)
+[2026-10-28T05:12:49.332Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:12:49.333Z] [INCIDENT] [E2E-REAR-02] ACCIDENT_CLASSIFIED[0m Confidence: 90%, Source: RULE_BASED, Peak: 2.03g
+[35m[2026-10-28T05:12:50.890Z] [INCIDENT] [E2E-REAR-01] CONFIRMED[0m Incident 6ae1844329c97dcfb8dffa58 officially confirmed.
+[35m[2026-10-28T05:12:50.897Z] [INCIDENT] [E2E-REAR-01] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-REAR-01 (E2E-REAR-01)
+Time: 28/10/2026, 10:42:35 am
+Impact Peak: 6.96 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99974, 76.96774
+Map Link: https://maps.google.com/?q=10.99974,76.96774
+======================================================
+
+[2026-10-28T05:12:53.245Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[2026-10-28T05:12:56.351Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:12:56.352Z] [INCIDENT] [E2E-REAR-03] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 8.11g
+[35m[2026-10-28T05:12:56.386Z] [INCIDENT] [E2E-REAR-03] PENDING_CONFIRMATION[0m Incident created: 6ae1845829c97dcfb8dfff91 (Peak: 8.11g, 15s countdown)
+[2026-10-28T05:12:59.477Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:12:59.477Z] [INCIDENT] [E2E-REAR-03] ACCIDENT_CLASSIFIED[0m Confidence: 90%, Source: RULE_BASED, Peak: 1.91g
+[35m[2026-10-28T05:13:01.058Z] [INCIDENT] [E2E-REAR-02] CONFIRMED[0m Incident 6ae1844d29c97dcfb8dffbfa officially confirmed.
+[35m[2026-10-28T05:13:01.065Z] [INCIDENT] [E2E-REAR-02] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-REAR-02 (E2E-REAR-02)
+Time: 28/10/2026, 10:42:45 am
+Impact Peak: 6.4 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99974, 76.96774
+Map Link: https://maps.google.com/?q=10.99974,76.96774
+======================================================
+
+[2026-10-28T05:13:03.564Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[2026-10-28T05:13:06.664Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:13:06.664Z] [INCIDENT] [E2E-REAR-04] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 8.37g
+[35m[2026-10-28T05:13:06.697Z] [INCIDENT] [E2E-REAR-04] PENDING_CONFIRMATION[0m Incident created: 6ae1846229c97dcfb8e00328 (Peak: 8.37g, 15s countdown)
+[2026-10-28T05:13:09.793Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:13:09.794Z] [INCIDENT] [E2E-REAR-04] ACCIDENT_CLASSIFIED[0m Confidence: 90%, Source: RULE_BASED, Peak: 1.84g
+[35m[2026-10-28T05:13:11.411Z] [INCIDENT] [E2E-REAR-03] CONFIRMED[0m Incident 6ae1845829c97dcfb8dfff91 officially confirmed.
+[35m[2026-10-28T05:13:11.423Z] [INCIDENT] [E2E-REAR-03] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-REAR-03 (E2E-REAR-03)
+Time: 28/10/2026, 10:42:56 am
+Impact Peak: 8.11 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99974, 76.96774
+Map Link: https://maps.google.com/?q=10.99974,76.96774
+======================================================
+
+[2026-10-28T05:13:13.645Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[2026-10-28T05:13:16.728Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:13:16.728Z] [INCIDENT] [E2E-REAR-05] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 6.72g
+[35m[2026-10-28T05:13:16.767Z] [INCIDENT] [E2E-REAR-05] PENDING_CONFIRMATION[0m Incident created: 6ae1846c29c97dcfb8e004ca (Peak: 6.72g, 15s countdown)
+[2026-10-28T05:13:19.859Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:13:19.859Z] [INCIDENT] [E2E-REAR-05] ACCIDENT_CLASSIFIED[0m Confidence: 90%, Source: RULE_BASED, Peak: 1.92g
+[35m[2026-10-28T05:13:21.719Z] [INCIDENT] [E2E-REAR-04] CONFIRMED[0m Incident 6ae1846229c97dcfb8e00328 officially confirmed.
+[35m[2026-10-28T05:13:21.729Z] [INCIDENT] [E2E-REAR-04] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-REAR-04 (E2E-REAR-04)
+Time: 28/10/2026, 10:43:06 am
+Impact Peak: 8.37 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99974, 76.96774
+Map Link: https://maps.google.com/?q=10.99974,76.96774
+======================================================
+
+[2026-10-28T05:13:23.928Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[2026-10-28T05:13:27.026Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:13:27.026Z] [INCIDENT] [E2E-REAR-06] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 6.11g
+[35m[2026-10-28T05:13:27.060Z] [INCIDENT] [E2E-REAR-06] PENDING_CONFIRMATION[0m Incident created: 6ae1847729c97dcfb8e00861 (Peak: 6.11g, 15s countdown)
+[2026-10-28T05:13:30.155Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:13:30.155Z] [INCIDENT] [E2E-REAR-06] ACCIDENT_CLASSIFIED[0m Confidence: 90%, Source: RULE_BASED, Peak: 1.92g
+[35m[2026-10-28T05:13:31.800Z] [INCIDENT] [E2E-REAR-05] CONFIRMED[0m Incident 6ae1846c29c97dcfb8e004ca officially confirmed.
+[35m[2026-10-28T05:13:31.815Z] [INCIDENT] [E2E-REAR-05] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-REAR-05 (E2E-REAR-05)
+Time: 28/10/2026, 10:43:16 am
+Impact Peak: 6.72 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99974, 76.96774
+Map Link: https://maps.google.com/?q=10.99974,76.96774
+======================================================
+
+[2026-10-28T05:13:34.052Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[2026-10-28T05:13:37.259Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:13:37.259Z] [INCIDENT] [E2E-REAR-07] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 7.55g
+[35m[2026-10-28T05:13:37.298Z] [INCIDENT] [E2E-REAR-07] PENDING_CONFIRMATION[0m Incident created: 6ae1848129c97dcfb8e00a03 (Peak: 7.55g, 15s countdown)
+[2026-10-28T05:13:40.959Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:13:40.959Z] [INCIDENT] [E2E-REAR-07] ACCIDENT_CLASSIFIED[0m Confidence: 90%, Source: RULE_BASED, Peak: 2.01g
+[35m[2026-10-28T05:13:42.100Z] [INCIDENT] [E2E-REAR-06] CONFIRMED[0m Incident 6ae1847729c97dcfb8e00861 officially confirmed.
+[35m[2026-10-28T05:13:42.118Z] [INCIDENT] [E2E-REAR-06] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-REAR-06 (E2E-REAR-06)
+Time: 28/10/2026, 10:43:27 am
+Impact Peak: 6.11 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99974, 76.96774
+Map Link: https://maps.google.com/?q=10.99974,76.96774
+======================================================
+
+[2026-10-28T05:13:45.119Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[2026-10-28T05:13:48.209Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:13:48.209Z] [INCIDENT] [E2E-REAR-08] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 7.84g
+[35m[2026-10-28T05:13:48.243Z] [INCIDENT] [E2E-REAR-08] PENDING_CONFIRMATION[0m Incident created: 6ae1848c29c97dcfb8e00d9a (Peak: 7.84g, 15s countdown)
+[2026-10-28T05:13:51.338Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:13:51.338Z] [INCIDENT] [E2E-REAR-08] ACCIDENT_CLASSIFIED[0m Confidence: 90%, Source: RULE_BASED, Peak: 1.88g
+[35m[2026-10-28T05:13:52.373Z] [INCIDENT] [E2E-REAR-07] CONFIRMED[0m Incident 6ae1848129c97dcfb8e00a03 officially confirmed.
+[35m[2026-10-28T05:13:52.382Z] [INCIDENT] [E2E-REAR-07] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-REAR-07 (E2E-REAR-07)
+Time: 28/10/2026, 10:43:37 am
+Impact Peak: 7.55 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99974, 76.96774
+Map Link: https://maps.google.com/?q=10.99974,76.96774
+======================================================
+
+[2026-10-28T05:13:55.445Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[2026-10-28T05:13:58.541Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:13:58.542Z] [INCIDENT] [E2E-REAR-09] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 7.68g
+[35m[2026-10-28T05:13:58.572Z] [INCIDENT] [E2E-REAR-09] PENDING_CONFIRMATION[0m Incident created: 6ae1849629c97dcfb8e01131 (Peak: 7.68g, 15s countdown)
+[2026-10-28T05:14:01.642Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:01.642Z] [INCIDENT] [E2E-REAR-09] ACCIDENT_CLASSIFIED[0m Confidence: 90%, Source: RULE_BASED, Peak: 1.94g
+[35m[2026-10-28T05:14:03.263Z] [INCIDENT] [E2E-REAR-08] CONFIRMED[0m Incident 6ae1848c29c97dcfb8e00d9a officially confirmed.
+[35m[2026-10-28T05:14:03.279Z] [INCIDENT] [E2E-REAR-08] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-REAR-08 (E2E-REAR-08)
+Time: 28/10/2026, 10:43:48 am
+Impact Peak: 7.84 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99974, 76.96774
+Map Link: https://maps.google.com/?q=10.99974,76.96774
+======================================================
+
+[2026-10-28T05:14:05.557Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:08.642Z] [INCIDENT] [E2E-REAR-10] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 5.87g
+[2026-10-28T05:14:08.642Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:08.671Z] [INCIDENT] [E2E-REAR-10] PENDING_CONFIRMATION[0m Incident created: 6ae184a029c97dcfb8e012d3 (Peak: 5.87g, 15s countdown)
+[2026-10-28T05:14:11.741Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:11.744Z] [INCIDENT] [E2E-REAR-10] ACCIDENT_CLASSIFIED[0m Confidence: 90%, Source: RULE_BASED, Peak: 1.82g
+
+================================================================================
+TABLE 1: CLOSED-LOOP E2E SCENARIO BENCHMARK (10 RUNS PER SCENARIO)
+================================================================================
+SCENARIO            | RUNS | CREATED | EXPECTED | DETECTION SOURCE | MEDIAN LAT | STATUS
+----------------------------------------------------------------------------------------
+normal              | 10   | 0       | 0        | NONE             | 0ms        | [PASS]
+hard_braking        | 10   | 0       | 0        | NONE             | 0ms        | [PASS]
+sharp_turn          | 10   | 0       | 0        | NONE             | 0ms        | [PASS]
+pothole             | 10   | 0       | 0        | NONE             | 0ms        | [PASS]
+frontal_collision   | 10   | 10      | 10       | ML               | 4ms        | [PASS]
+side_impact         | 10   | 10      | 10       | ML               | 5ms        | [PASS]
+rollover            | 10   | 10      | 10       | RULE_BASED       | 3028ms     | [PASS]
+rear_end            | 10   | 10      | 10       | RULE_BASED       | 3023ms     | [PASS]
+
+Phase 1 Result: [ALL PASS]
+================================================================================
+
+[E2E Phase 2] Simulating ML Microservice Down -> Verifying Rule-Based Fallback...
+[35m[2026-10-28T05:14:13.591Z] [INCIDENT] [E2E-REAR-09] CONFIRMED[0m Incident 6ae1849629c97dcfb8e01131 officially confirmed.
+[35m[2026-10-28T05:14:13.614Z] [INCIDENT] [E2E-REAR-09] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-REAR-09 (E2E-REAR-09)
+Time: 28/10/2026, 10:43:58 am
+Impact Peak: 7.68 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99974, 76.96774
+Map Link: https://maps.google.com/?q=10.99974,76.96774
+======================================================
+
+[2026-10-28T05:14:13.625Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:13.625Z] [INCIDENT] [E2E-FB-FRON-1] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 11.79g
+[35m[2026-10-28T05:14:13.731Z] [INCIDENT] [E2E-FB-FRON-1] PENDING_CONFIRMATION[0m Incident created: 6ae184a529c97dcfb8e0166a (Peak: 11.79g, 15s countdown)
+[2026-10-28T05:14:13.903Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:13.904Z] [INCIDENT] [E2E-FB-FRON-1] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 11.79g
+[2026-10-28T05:14:15.264Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:15.264Z] [INCIDENT] [E2E-FB-FRON-2] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 10.04g
+[35m[2026-10-28T05:14:15.383Z] [INCIDENT] [E2E-FB-FRON-2] PENDING_CONFIRMATION[0m Incident created: 6ae184a729c97dcfb8e016d4 (Peak: 10.04g, 15s countdown)
+[2026-10-28T05:14:15.535Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:15.535Z] [INCIDENT] [E2E-FB-FRON-2] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 10.04g
+[2026-10-28T05:14:17.361Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:17.362Z] [INCIDENT] [E2E-FB-FRON-3] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 9.46g
+[35m[2026-10-28T05:14:17.423Z] [INCIDENT] [E2E-FB-FRON-3] PENDING_CONFIRMATION[0m Incident created: 6ae184a929c97dcfb8e01933 (Peak: 9.46g, 15s countdown)
+[2026-10-28T05:14:17.600Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:17.604Z] [INCIDENT] [E2E-FB-FRON-3] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 9.46g
+[2026-10-28T05:14:19.945Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:19.946Z] [INCIDENT] [E2E-FB-FRON-4] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 12.69g
+[35m[2026-10-28T05:14:20.015Z] [INCIDENT] [E2E-FB-FRON-4] PENDING_CONFIRMATION[0m Incident created: 6ae184ab29c97dcfb8e01b92 (Peak: 12.69g, 15s countdown)
+[2026-10-28T05:14:20.233Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:20.234Z] [INCIDENT] [E2E-FB-FRON-4] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 12.69g
+[2026-10-28T05:14:21.613Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:21.613Z] [INCIDENT] [E2E-FB-FRON-5] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 12.32g
+[35m[2026-10-28T05:14:21.665Z] [INCIDENT] [E2E-FB-FRON-5] PENDING_CONFIRMATION[0m Incident created: 6ae184ad29c97dcfb8e01bfc (Peak: 12.32g, 15s countdown)
+[2026-10-28T05:14:21.874Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:21.875Z] [INCIDENT] [E2E-FB-FRON-5] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 12.32g
+[2026-10-28T05:14:23.295Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:23.295Z] [INCIDENT] [E2E-FB-SIDE-1] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 7.28g
+[35m[2026-10-28T05:14:23.320Z] [INCIDENT] [E2E-FB-SIDE-1] PENDING_CONFIRMATION[0m Incident created: 6ae184af29c97dcfb8e01e5b (Peak: 7.28g, 15s countdown)
+[2026-10-28T05:14:23.390Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:23.391Z] [INCIDENT] [E2E-FB-SIDE-1] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 7.28g
+[35m[2026-10-28T05:14:23.720Z] [INCIDENT] [E2E-REAR-10] CONFIRMED[0m Incident 6ae184a029c97dcfb8e012d3 officially confirmed.
+[35m[2026-10-28T05:14:23.739Z] [INCIDENT] [E2E-REAR-10] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-REAR-10 (E2E-REAR-10)
+Time: 28/10/2026, 10:44:08 am
+Impact Peak: 5.87 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99974, 76.96774
+Map Link: https://maps.google.com/?q=10.99974,76.96774
+======================================================
+
+[2026-10-28T05:14:24.491Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:24.491Z] [INCIDENT] [E2E-FB-SIDE-2] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 8.59g
+[35m[2026-10-28T05:14:24.548Z] [INCIDENT] [E2E-FB-SIDE-2] PENDING_CONFIRMATION[0m Incident created: 6ae184b029c97dcfb8e01ffd (Peak: 8.59g, 15s countdown)
+[2026-10-28T05:14:24.741Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:24.741Z] [INCIDENT] [E2E-FB-SIDE-2] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 8.59g
+[35m[2026-10-28T05:14:26.510Z] [INCIDENT] [E2E-FB-SIDE-3] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 9.68g
+[2026-10-28T05:14:26.510Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:26.630Z] [INCIDENT] [E2E-FB-SIDE-3] PENDING_CONFIRMATION[0m Incident created: 6ae184b229c97dcfb8e0225c (Peak: 9.68g, 15s countdown)
+[2026-10-28T05:14:26.794Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:26.795Z] [INCIDENT] [E2E-FB-SIDE-3] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 9.68g
+[2026-10-28T05:14:28.203Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:28.203Z] [INCIDENT] [E2E-FB-SIDE-4] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 8.36g
+[35m[2026-10-28T05:14:28.232Z] [INCIDENT] [E2E-FB-SIDE-4] PENDING_CONFIRMATION[0m Incident created: 6ae184b429c97dcfb8e024bb (Peak: 8.36g, 15s countdown)
+[35m[2026-10-28T05:14:28.311Z] [INCIDENT] [E2E-FB-SIDE-4] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 8.36g
+[2026-10-28T05:14:28.311Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:28.764Z] [INCIDENT] [E2E-FB-FRON-1] CONFIRMED[0m Incident 6ae184a529c97dcfb8e0166a officially confirmed.
+[35m[2026-10-28T05:14:28.772Z] [INCIDENT] [E2E-FB-FRON-1] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FB-FRON-1 (E2E-FB-FRON-1)
+Time: 28/10/2026, 10:44:13 am
+Impact Peak: 11.79 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[2026-10-28T05:14:29.218Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:29.218Z] [INCIDENT] [E2E-FB-SIDE-5] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 7.63g
+[35m[2026-10-28T05:14:29.246Z] [INCIDENT] [E2E-FB-SIDE-5] PENDING_CONFIRMATION[0m Incident created: 6ae184b529c97dcfb8e0265d (Peak: 7.63g, 15s countdown)
+[2026-10-28T05:14:29.318Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:29.318Z] [INCIDENT] [E2E-FB-SIDE-5] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 7.63g
+[2026-10-28T05:14:30.383Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:30.383Z] [INCIDENT] [E2E-FB-ROLL-1] ACCIDENT_CLASSIFIED[0m Confidence: 93%, Source: RULE_BASED, Peak: 5.74g
+[35m[2026-10-28T05:14:30.423Z] [INCIDENT] [E2E-FB-ROLL-1] PENDING_CONFIRMATION[0m Incident created: 6ae184b629c97dcfb8e028bd (Peak: 5.74g, 15s countdown)
+[35m[2026-10-28T05:14:30.424Z] [INCIDENT] [E2E-FB-FRON-2] CONFIRMED[0m Incident 6ae184a729c97dcfb8e016d4 officially confirmed.
+[35m[2026-10-28T05:14:30.435Z] [INCIDENT] [E2E-FB-FRON-2] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FB-FRON-2 (E2E-FB-FRON-2)
+Time: 28/10/2026, 10:44:15 am
+Impact Peak: 10.04 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[2026-10-28T05:14:30.520Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:30.520Z] [INCIDENT] [E2E-FB-ROLL-1] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 5.74g
+[2026-10-28T05:14:30.605Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:30.605Z] [INCIDENT] [E2E-FB-ROLL-1] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 4.05g
+[2026-10-28T05:14:30.662Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:30.662Z] [INCIDENT] [E2E-FB-ROLL-1] ACCIDENT_CLASSIFIED[0m Confidence: 85%, Source: RULE_BASED, Peak: 1.01g
+[2026-10-28T05:14:31.598Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:31.598Z] [INCIDENT] [E2E-FB-ROLL-2] ACCIDENT_CLASSIFIED[0m Confidence: 93%, Source: RULE_BASED, Peak: 5.55g
+[35m[2026-10-28T05:14:31.649Z] [INCIDENT] [E2E-FB-ROLL-2] PENDING_CONFIRMATION[0m Incident created: 6ae184b729c97dcfb8e02a5e (Peak: 5.55g, 15s countdown)
+[2026-10-28T05:14:31.841Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:31.842Z] [INCIDENT] [E2E-FB-ROLL-2] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 5.55g
+[2026-10-28T05:14:32.406Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:32.407Z] [INCIDENT] [E2E-FB-ROLL-2] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 4.96g
+[35m[2026-10-28T05:14:32.453Z] [INCIDENT] [E2E-FB-FRON-3] CONFIRMED[0m Incident 6ae184a929c97dcfb8e01933 officially confirmed.
+[35m[2026-10-28T05:14:32.472Z] [INCIDENT] [E2E-FB-FRON-3] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FB-FRON-3 (E2E-FB-FRON-3)
+Time: 28/10/2026, 10:44:17 am
+Impact Peak: 9.46 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[2026-10-28T05:14:33.691Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:33.692Z] [INCIDENT] [E2E-FB-ROLL-3] ACCIDENT_CLASSIFIED[0m Confidence: 93%, Source: RULE_BASED, Peak: 7.22g
+[35m[2026-10-28T05:14:33.738Z] [INCIDENT] [E2E-FB-ROLL-3] PENDING_CONFIRMATION[0m Incident created: 6ae184b929c97dcfb8e02df5 (Peak: 7.22g, 15s countdown)
+[2026-10-28T05:14:33.918Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:33.918Z] [INCIDENT] [E2E-FB-ROLL-3] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 7.22g
+[2026-10-28T05:14:34.094Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:34.095Z] [INCIDENT] [E2E-FB-ROLL-3] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 5.02g
+[35m[2026-10-28T05:14:35.063Z] [INCIDENT] [E2E-FB-FRON-4] CONFIRMED[0m Incident 6ae184ab29c97dcfb8e01b92 officially confirmed.
+[35m[2026-10-28T05:14:35.091Z] [INCIDENT] [E2E-FB-FRON-4] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FB-FRON-4 (E2E-FB-FRON-4)
+Time: 28/10/2026, 10:44:19 am
+Impact Peak: 12.69 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[2026-10-28T05:14:36.007Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:36.007Z] [INCIDENT] [E2E-FB-ROLL-4] ACCIDENT_CLASSIFIED[0m Confidence: 93%, Source: RULE_BASED, Peak: 7.06g
+[35m[2026-10-28T05:14:36.140Z] [INCIDENT] [E2E-FB-ROLL-4] PENDING_CONFIRMATION[0m Incident created: 6ae184bc29c97dcfb8e0318c (Peak: 7.06g, 15s countdown)
+[2026-10-28T05:14:36.306Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:36.306Z] [INCIDENT] [E2E-FB-ROLL-4] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 7.06g
+[2026-10-28T05:14:36.527Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:36.527Z] [INCIDENT] [E2E-FB-ROLL-4] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 5.05g
+[2026-10-28T05:14:36.650Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:36.650Z] [INCIDENT] [E2E-FB-ROLL-4] ACCIDENT_CLASSIFIED[0m Confidence: 85%, Source: RULE_BASED, Peak: 1.03g
+[35m[2026-10-28T05:14:36.725Z] [INCIDENT] [E2E-FB-FRON-5] CONFIRMED[0m Incident 6ae184ad29c97dcfb8e01bfc officially confirmed.
+[35m[2026-10-28T05:14:36.746Z] [INCIDENT] [E2E-FB-FRON-5] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FB-FRON-5 (E2E-FB-FRON-5)
+Time: 28/10/2026, 10:44:21 am
+Impact Peak: 12.32 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[2026-10-28T05:14:37.762Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:37.763Z] [INCIDENT] [E2E-FB-ROLL-5] ACCIDENT_CLASSIFIED[0m Confidence: 93%, Source: RULE_BASED, Peak: 6.15g
+[35m[2026-10-28T05:14:37.823Z] [INCIDENT] [E2E-FB-ROLL-5] PENDING_CONFIRMATION[0m Incident created: 6ae184bd29c97dcfb8e0332e (Peak: 6.15g, 15s countdown)
+[2026-10-28T05:14:37.992Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:37.992Z] [INCIDENT] [E2E-FB-ROLL-5] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 6.15g
+[2026-10-28T05:14:38.176Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:38.176Z] [INCIDENT] [E2E-FB-ROLL-5] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 4.44g
+[2026-10-28T05:14:38.356Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:38.356Z] [INCIDENT] [E2E-FB-ROLL-5] ACCIDENT_CLASSIFIED[0m Confidence: 85%, Source: RULE_BASED, Peak: 1.03g
+[35m[2026-10-28T05:14:38.359Z] [INCIDENT] [E2E-FB-SIDE-1] CONFIRMED[0m Incident 6ae184af29c97dcfb8e01e5b officially confirmed.
+[35m[2026-10-28T05:14:38.375Z] [INCIDENT] [E2E-FB-SIDE-1] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FB-SIDE-1 (E2E-FB-SIDE-1)
+Time: 28/10/2026, 10:44:23 am
+Impact Peak: 7.28 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[35m[2026-10-28T05:14:39.575Z] [INCIDENT] [E2E-FB-SIDE-2] CONFIRMED[0m Incident 6ae184b029c97dcfb8e01ffd officially confirmed.
+[35m[2026-10-28T05:14:39.594Z] [INCIDENT] [E2E-FB-SIDE-2] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FB-SIDE-2 (E2E-FB-SIDE-2)
+Time: 28/10/2026, 10:44:24 am
+Impact Peak: 8.59 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[2026-10-28T05:14:40.038Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[2026-10-28T05:14:40.212Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:40.212Z] [INCIDENT] [E2E-FB-REAR-1] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 7.67g
+[35m[2026-10-28T05:14:40.315Z] [INCIDENT] [E2E-FB-REAR-1] PENDING_CONFIRMATION[0m Incident created: 6ae184c029c97dcfb8e037fd (Peak: 7.67g, 15s countdown)
+[2026-10-28T05:14:40.547Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:40.547Z] [INCIDENT] [E2E-FB-REAR-1] ACCIDENT_CLASSIFIED[0m Confidence: 90%, Source: RULE_BASED, Peak: 1.91g
+[2026-10-28T05:14:41.620Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:41.661Z] [INCIDENT] [E2E-FB-SIDE-3] CONFIRMED[0m Incident 6ae184b229c97dcfb8e0225c officially confirmed.
+[35m[2026-10-28T05:14:41.696Z] [INCIDENT] [E2E-FB-SIDE-3] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FB-SIDE-3 (E2E-FB-SIDE-3)
+Time: 28/10/2026, 10:44:26 am
+Impact Peak: 9.68 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[2026-10-28T05:14:41.909Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:41.910Z] [INCIDENT] [E2E-FB-REAR-2] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 6.57g
+[35m[2026-10-28T05:14:41.977Z] [INCIDENT] [E2E-FB-REAR-2] PENDING_CONFIRMATION[0m Incident created: 6ae184c129c97dcfb8e0399f (Peak: 6.57g, 15s countdown)
+[2026-10-28T05:14:42.874Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:42.875Z] [INCIDENT] [E2E-FB-REAR-2] ACCIDENT_CLASSIFIED[0m Confidence: 90%, Source: RULE_BASED, Peak: 1.94g
+[35m[2026-10-28T05:14:43.328Z] [INCIDENT] [E2E-FB-SIDE-4] CONFIRMED[0m Incident 6ae184b429c97dcfb8e024bb officially confirmed.
+[35m[2026-10-28T05:14:43.408Z] [INCIDENT] [E2E-FB-SIDE-4] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FB-SIDE-4 (E2E-FB-SIDE-4)
+Time: 28/10/2026, 10:44:28 am
+Impact Peak: 8.36 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[35m[2026-10-28T05:14:44.287Z] [INCIDENT] [E2E-FB-SIDE-5] CONFIRMED[0m Incident 6ae184b529c97dcfb8e0265d officially confirmed.
+[35m[2026-10-28T05:14:44.310Z] [INCIDENT] [E2E-FB-SIDE-5] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FB-SIDE-5 (E2E-FB-SIDE-5)
+Time: 28/10/2026, 10:44:29 am
+Impact Peak: 7.63 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[2026-10-28T05:14:44.833Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[2026-10-28T05:14:45.096Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:45.096Z] [INCIDENT] [E2E-FB-REAR-3] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 6.11g
+[35m[2026-10-28T05:14:45.158Z] [INCIDENT] [E2E-FB-REAR-3] PENDING_CONFIRMATION[0m Incident created: 6ae184c529c97dcfb8e03e6e (Peak: 6.11g, 15s countdown)
+[2026-10-28T05:14:45.359Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:45.359Z] [INCIDENT] [E2E-FB-REAR-3] ACCIDENT_CLASSIFIED[0m Confidence: 90%, Source: RULE_BASED, Peak: 1.94g
+[35m[2026-10-28T05:14:45.469Z] [INCIDENT] [E2E-FB-ROLL-1] CONFIRMED[0m Incident 6ae184b629c97dcfb8e028bd officially confirmed.
+[35m[2026-10-28T05:14:45.502Z] [INCIDENT] [E2E-FB-ROLL-1] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FB-ROLL-1 (E2E-FB-ROLL-1)
+Time: 28/10/2026, 10:44:30 am
+Impact Peak: 5.74 g
+Speed at Impact: 60 km/h
+Confidence: 93%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[35m[2026-10-28T05:14:47.013Z] [INCIDENT] [E2E-FB-ROLL-2] CONFIRMED[0m Incident 6ae184b729c97dcfb8e02a5e officially confirmed.
+[35m[2026-10-28T05:14:47.061Z] [INCIDENT] [E2E-FB-ROLL-2] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FB-ROLL-2 (E2E-FB-ROLL-2)
+Time: 28/10/2026, 10:44:31 am
+Impact Peak: 5.55 g
+Speed at Impact: 60 km/h
+Confidence: 93%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[2026-10-28T05:14:47.312Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[2026-10-28T05:14:47.470Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:47.471Z] [INCIDENT] [E2E-FB-REAR-4] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 8.27g
+[35m[2026-10-28T05:14:47.587Z] [INCIDENT] [E2E-FB-REAR-4] PENDING_CONFIRMATION[0m Incident created: 6ae184c729c97dcfb8e0433d (Peak: 8.27g, 15s countdown)
+[2026-10-28T05:14:47.724Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:47.724Z] [INCIDENT] [E2E-FB-REAR-4] ACCIDENT_CLASSIFIED[0m Confidence: 90%, Source: RULE_BASED, Peak: 1.93g
+[35m[2026-10-28T05:14:48.756Z] [INCIDENT] [E2E-FB-ROLL-3] CONFIRMED[0m Incident 6ae184b929c97dcfb8e02df5 officially confirmed.
+[35m[2026-10-28T05:14:48.771Z] [INCIDENT] [E2E-FB-ROLL-3] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FB-ROLL-3 (E2E-FB-ROLL-3)
+Time: 28/10/2026, 10:44:33 am
+Impact Peak: 7.22 g
+Speed at Impact: 60 km/h
+Confidence: 93%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[2026-10-28T05:14:49.038Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[2026-10-28T05:14:49.217Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:49.218Z] [INCIDENT] [E2E-FB-REAR-5] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 7.58g
+[35m[2026-10-28T05:14:49.271Z] [INCIDENT] [E2E-FB-REAR-5] PENDING_CONFIRMATION[0m Incident created: 6ae184c929c97dcfb8e044df (Peak: 7.58g, 15s countdown)
+[2026-10-28T05:14:49.436Z] [WARN] [ML Client] ML service unreachable at http://127.0.0.1:59998/predict (connect ECONNREFUSED 127.0.0.1:59998). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:49.436Z] [INCIDENT] [E2E-FB-REAR-5] ACCIDENT_CLASSIFIED[0m Confidence: 90%, Source: RULE_BASED, Peak: 2.02g
+
+================================================================================
+TABLE 2: ML-SERVICE DOWN - RULE-BASED FALLBACK BENCHMARK
+================================================================================
+SCENARIO            | RUNS | CREATED | EXPECTED | DETECTION SOURCE | MEDIAN LAT | STATUS
+----------------------------------------------------------------------------------------
+frontal_collision   | 5    | 5       | 5        | RULE_BASED       | 18ms       | [PASS]
+side_impact         | 5    | 5       | 5        | RULE_BASED       | 16ms       | [PASS]
+rollover            | 5    | 5       | 5        | RULE_BASED       | 7ms        | [PASS]
+rear_end            | 5    | 5       | 5        | RULE_BASED       | 11ms       | [PASS]
+
+Phase 2 Result: [ALL PASS]
+================================================================================
+
+[E2E Phase 3] Testing False-Alarm Cancellation Path (Driver Presses Cancel)...
+[35m[2026-10-28T05:14:51.183Z] [INCIDENT] [E2E-FB-ROLL-4] CONFIRMED[0m Incident 6ae184bc29c97dcfb8e0318c officially confirmed.
+[35m[2026-10-28T05:14:51.196Z] [INCIDENT] [E2E-FB-ROLL-4] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FB-ROLL-4 (E2E-FB-ROLL-4)
+Time: 28/10/2026, 10:44:36 am
+Impact Peak: 7.06 g
+Speed at Impact: 60 km/h
+Confidence: 93%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[35m[2026-10-28T05:14:52.877Z] [INCIDENT] [E2E-FB-ROLL-5] CONFIRMED[0m Incident 6ae184bd29c97dcfb8e0332e officially confirmed.
+[35m[2026-10-28T05:14:52.891Z] [INCIDENT] [E2E-FB-ROLL-5] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FB-ROLL-5 (E2E-FB-ROLL-5)
+Time: 28/10/2026, 10:44:37 am
+Impact Peak: 6.15 g
+Speed at Impact: 60 km/h
+Confidence: 93%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+[2026-10-28T05:14:54.064Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:54.065Z] [INCIDENT] [E2E-FA-1793164490669] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 10.01g
+[35m[2026-10-28T05:14:54.153Z] [INCIDENT] [E2E-FA-1793164490669] PENDING_CONFIRMATION[0m Incident created: 6ae184ce29c97dcfb8e049ae (Peak: 10.01g, 15s countdown)
+[35m[2026-10-28T05:14:55.339Z] [INCIDENT] [E2E-FB-REAR-1] CONFIRMED[0m Incident 6ae184c029c97dcfb8e037fd officially confirmed.
+[35m[2026-10-28T05:14:55.347Z] [INCIDENT] [E2E-FB-REAR-1] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FB-REAR-1 (E2E-FB-REAR-1)
+Time: 28/10/2026, 10:44:40 am
+Impact Peak: 7.67 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99974, 76.96774
+Map Link: https://maps.google.com/?q=10.99974,76.96774
+======================================================
+
+[35m[2026-10-28T05:14:56.992Z] [INCIDENT] [E2E-FB-REAR-2] CONFIRMED[0m Incident 6ae184c129c97dcfb8e0399f officially confirmed.
+[35m[2026-10-28T05:14:57.001Z] [INCIDENT] [E2E-FB-REAR-2] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FB-REAR-2 (E2E-FB-REAR-2)
+Time: 28/10/2026, 10:44:41 am
+Impact Peak: 6.57 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99974, 76.96774
+Map Link: https://maps.google.com/?q=10.99974,76.96774
+======================================================
+
+[2026-10-28T05:14:57.322Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:14:57.323Z] [INCIDENT] [E2E-FA-1793164490669] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 10.01g
+  - Incident created: 6ae184ce29c97dcfb8e049ae (Status: PENDING_CONFIRMATION)
+[35m[2026-10-28T05:14:57.931Z] [INCIDENT] [E2E-FA-1793164490669] FALSE_ALARM[0m Incident 6ae184ce29c97dcfb8e049ae cancelled: Driver pressed false-alarm button
+  - Cancel response: {"success":true,"message":"Incident marked as false alarm and alert aborted","data":{"location":{"la
+  - Verified status: FALSE_ALARM (Expected: FALSE_ALARM)
+  - Phase 3 Result: [PASS]
+
+[E2E Phase 4] Testing Countdown Expiry -> Alert Dispatch (Auto-Confirm)...
+[35m[2026-10-28T05:15:00.192Z] [INCIDENT] [E2E-FB-REAR-3] CONFIRMED[0m Incident 6ae184c529c97dcfb8e03e6e officially confirmed.
+[35m[2026-10-28T05:15:00.203Z] [INCIDENT] [E2E-FB-REAR-3] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FB-REAR-3 (E2E-FB-REAR-3)
+Time: 28/10/2026, 10:44:45 am
+Impact Peak: 6.11 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99974, 76.96774
+Map Link: https://maps.google.com/?q=10.99974,76.96774
+======================================================
+
+[2026-10-28T05:15:01.172Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:15:01.172Z] [INCIDENT] [E2E-EXP-1793164497942] ACCIDENT_CLASSIFIED[0m Confidence: 93%, Source: RULE_BASED, Peak: 6.1g
+[35m[2026-10-28T05:15:01.201Z] [INCIDENT] [E2E-EXP-1793164497942] PENDING_CONFIRMATION[0m Incident created: 6ae184d529c97dcfb8e04e2a (Peak: 6.1g, 15s countdown)
+[35m[2026-10-28T05:15:02.617Z] [INCIDENT] [E2E-FB-REAR-4] CONFIRMED[0m Incident 6ae184c729c97dcfb8e0433d officially confirmed.
+[35m[2026-10-28T05:15:02.631Z] [INCIDENT] [E2E-FB-REAR-4] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FB-REAR-4 (E2E-FB-REAR-4)
+Time: 28/10/2026, 10:44:47 am
+Impact Peak: 8.27 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99974, 76.96774
+Map Link: https://maps.google.com/?q=10.99974,76.96774
+======================================================
+
+[35m[2026-10-28T05:15:04.290Z] [INCIDENT] [E2E-FB-REAR-5] CONFIRMED[0m Incident 6ae184c929c97dcfb8e044df officially confirmed.
+[35m[2026-10-28T05:15:04.299Z] [INCIDENT] [E2E-FB-REAR-5] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-FB-REAR-5 (E2E-FB-REAR-5)
+Time: 28/10/2026, 10:44:49 am
+Impact Peak: 7.58 g
+Speed at Impact: 60 km/h
+Confidence: 98%
+Location: 10.99974, 76.96774
+Map Link: https://maps.google.com/?q=10.99974,76.96774
+======================================================
+
+[2026-10-28T05:15:04.463Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:15:04.463Z] [INCIDENT] [E2E-EXP-1793164497942] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 6.1g
+[2026-10-28T05:15:07.761Z] [WARN] [ML Client] ML service unreachable at http://localhost:8000/predict (timeout of 1500ms exceeded). Activating Rule-Based Fallback Engine.
+[35m[2026-10-28T05:15:07.761Z] [INCIDENT] [E2E-EXP-1793164497942] ACCIDENT_CLASSIFIED[0m Confidence: 98%, Source: RULE_BASED, Peak: 5.07g
+  - Incident created: 6ae184d529c97dcfb8e04e2a (Status: PENDING_CONFIRMATION)
+[35m[2026-10-28T05:15:08.323Z] [INCIDENT] [E2E-EXP-1793164497942] CONFIRMED[0m Incident 6ae184d529c97dcfb8e04e2a officially confirmed.
+[35m[2026-10-28T05:15:08.333Z] [INCIDENT] [E2E-EXP-1793164497942] DISPATCHING_ALERTS[0m Found 0 emergency contacts.
+
+======================================================
+≡ƒô▒ [MOCK SMS / EMERGENCY OPERATOR] To: Central Emergency Dispatch (+91-108)
+≡ƒÜ¿ EMERGENCY: CRASH DETECTED!
+Vehicle: E2E-EXP-1793164497942 (E2E-EXP-1793164497942)
+Time: 28/10/2026, 10:45:01 am
+Impact Peak: 6.1 g
+Speed at Impact: 60 km/h
+Confidence: 93%
+Location: 10.99924, 76.96724
+Map Link: https://maps.google.com/?q=10.99924,76.96724
+======================================================
+
+  - Verified status: CONFIRMED (Expected: CONFIRMED)
+  - Phase 4 Result: [PASS]
+
+================================================================================
+CLOSED-LOOP END-TO-END SUITE COMPLETED
+  Phase 1 (8 scenarios): ALL PASS
+  Phase 2 (ML fallback): ALL PASS
+  Phase 3 (cancel path): PASS
+  Phase 4 (expiry path): PASS
+  Overall:               PASS
+================================================================================
+

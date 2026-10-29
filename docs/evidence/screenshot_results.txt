@@ -1,0 +1,15 @@
+SCREENSHOT CAPTURE RESULTS
+Timestamp: 2026-10-28T05:49:05.226Z
+
+[OK] 01_login.png
+[OK] 02_dashboard_normal.png
+[OK] 03_fleet_monitor.png
+[OK] 04_live_map.png
+[OK] 05_dashboard_crash_banner.png
+[OK] 06_incidents_list.png
+[OK] 07_incident_detail.png
+[OK] 08_contacts.png
+[OK] 09_simulator_panel.png
+[OK] 10_ml_console.png
+[OK] 11_settings.png
+[OK] 12_dark_mode.png
